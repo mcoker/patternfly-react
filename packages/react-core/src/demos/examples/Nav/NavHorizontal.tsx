@@ -37,8 +37,13 @@ import QuestionCircleIcon from '@patternfly/react-icons/dist/esm/icons/question-
 import EllipsisVIcon from '@patternfly/react-icons/dist/esm/icons/ellipsis-v-icon';
 import BellIcon from '@patternfly/react-icons/dist/esm/icons/bell-icon';
 import imgAvatar from '@patternfly/react-core/src/components/assets/avatarImg.svg';
+<<<<<<< HEAD
 import pfLogo from '@patternfly/react-core/src/demos/assets/PF-HorizontalLogo-Color.svg';
 import { DashboardBreadcrumb } from '@patternfly/react-core/src/demos/DashboardWrapper';
+=======
+import pfLogo from '@patternfly/react-core/src/demos/assets/pf-logo.svg';
+import { DashboardBreadcrumb } from '@patternfly/react-core/dist/js/demos/DashboardWrapper';
+>>>>>>> main
 
 export const NavHorizontal: React.FunctionComponent = () => {
   const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);

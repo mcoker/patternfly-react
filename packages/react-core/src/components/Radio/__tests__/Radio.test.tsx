@@ -133,8 +133,13 @@ describe('Radio', () => {
     expect(screen.getByText(labelText).tagName).toBe('SPAN');
   });
 
+<<<<<<< HEAD
   test('Renders label before radio input if labelPosition is "start"', () => {
     render(<Radio id="test-id" name="check" labelPosition="start" label={'test radio label'} />);
+=======
+  test('Renders label before radio input if isLabelBeforeButton is provided', () => {
+    render(<Radio id="test-id" name="check" isLabelBeforeButton label={'test radio label'} />);
+>>>>>>> main
 
     const wrapper = screen.getByRole('radio').parentElement!;
 

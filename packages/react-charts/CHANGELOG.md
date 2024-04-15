@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<<<<<<< HEAD
 # 8.0.0-alpha.19 (2024-04-02)
 
 **Note:** Version bump only for package @patternfly/react-charts
@@ -130,6 +131,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 **Note:** Version bump only for package @patternfly/react-charts
 
 # 7.2.0-prerelease.6 (2023-11-03)
+=======
+# 7.3.0-prerelease.6 (2024-03-26)
+
+**Note:** Version bump only for package @patternfly/react-charts
+
+# 7.3.0-prerelease.5 (2024-03-22)
+
+**Note:** Version bump only for package @patternfly/react-charts
+
+# [7.3.0-prerelease.4](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-charts@7.3.0-prerelease.3...@patternfly/react-charts@7.3.0-prerelease.4) (2024-03-05)
+>>>>>>> main
 
 **Note:** Version bump only for package @patternfly/react-charts
 

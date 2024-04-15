@@ -133,14 +133,24 @@ exports[`LabelGroup label group with category 1`] = `
     >
       <span
         aria-hidden="true"
+<<<<<<< HEAD
         class="pf-v6-c-label-group__label"
         id="pf-random-id-1"
+=======
+        class="pf-v5-c-label-group__label"
+        id="generated-id"
+>>>>>>> main
       >
         category
       </span>
       <ul
+<<<<<<< HEAD
         aria-labelledby="pf-random-id-1"
         class="pf-v6-c-label-group__list"
+=======
+        aria-labelledby="generated-id"
+        class="pf-v5-c-label-group__list"
+>>>>>>> main
         role="list"
       >
         <li
@@ -176,14 +186,24 @@ exports[`LabelGroup label group with category and tooltip 1`] = `
     >
       <span
         aria-hidden="true"
+<<<<<<< HEAD
         class="pf-v6-c-label-group__label"
         id="pf-random-id-4"
+=======
+        class="pf-v5-c-label-group__label"
+        id="generated-id"
+>>>>>>> main
       >
         A very long category name
       </span>
       <ul
+<<<<<<< HEAD
         aria-labelledby="pf-random-id-4"
         class="pf-v6-c-label-group__list"
+=======
+        aria-labelledby="generated-id"
+        class="pf-v5-c-label-group__list"
+>>>>>>> main
         role="list"
       >
         <li
@@ -219,14 +239,24 @@ exports[`LabelGroup label group with closable category 1`] = `
     >
       <span
         aria-hidden="true"
+<<<<<<< HEAD
         class="pf-v6-c-label-group__label"
         id="pf-random-id-2"
+=======
+        class="pf-v5-c-label-group__label"
+        id="generated-id"
+>>>>>>> main
       >
         category
       </span>
       <ul
+<<<<<<< HEAD
         aria-labelledby="pf-random-id-2"
         class="pf-v6-c-label-group__list"
+=======
+        aria-labelledby="generated-id"
+        class="pf-v5-c-label-group__list"
+>>>>>>> main
         role="list"
       >
         <li
@@ -254,12 +284,17 @@ exports[`LabelGroup label group with closable category 1`] = `
       <button
         aria-disabled="false"
         aria-label="Close label group"
+<<<<<<< HEAD
         aria-labelledby="remove_group_pf-random-id-2 pf-random-id-2"
         class="pf-v6-c-button pf-m-plain pf-m-no-padding"
+=======
+        aria-labelledby="remove_group_generated-id generated-id"
+        class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
         data-ouia-component-id="OUIA-Generated-Button-plain-1"
         data-ouia-component-type="PF5/Button"
         data-ouia-safe="true"
-        id="remove_group_pf-random-id-2"
+        id="remove_group_generated-id"
         type="button"
       >
         <svg

@@ -60,6 +60,24 @@ describe('Nav', () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
+<<<<<<< HEAD
+=======
+  test('Dark Nav List', () => {
+    const { asFragment } = renderNav(
+      <Nav className="test=nav-class" theme="dark">
+        <NavList className="test-nav-list-class">
+          {props.items.map((item) => (
+            <NavItem to={item.to} key={item.to} className="test-nav-item-class">
+              {item.label}
+            </NavItem>
+          ))}
+        </NavList>
+      </Nav>
+    );
+    expect(asFragment()).toMatchSnapshot();
+  });
+
+>>>>>>> main
   test('Default Nav List - Trigger item active update', async () => {
     const user = userEvent.setup();
 
@@ -203,6 +221,24 @@ describe('Nav', () => {
       <Nav variant="horizontal-subnav">
         <NavList>
           {props.items.map((item) => (
+<<<<<<< HEAD
+=======
+            <NavItem to={item.to} key={item.to}>
+              {item.label}
+            </NavItem>
+          ))}
+        </NavList>
+      </Nav>
+    );
+    expect(asFragment()).toMatchSnapshot();
+  });
+
+  test('Tertiary Nav List', () => {
+    const { asFragment } = renderNav(
+      <Nav variant="tertiary">
+        <NavList>
+          {props.items.map((item) => (
+>>>>>>> main
             <NavItem to={item.to} key={item.to}>
               {item.label}
             </NavItem>

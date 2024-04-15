@@ -7,7 +7,11 @@ exports[`NotificationDrawerListItem renders with PatternFly Core styles 1`] = `
     tabindex="0"
   >
     <span
+<<<<<<< HEAD
       class="pf-v6-screen-reader"
+=======
+      class="pf-v5-screen-reader"
+>>>>>>> main
     >
       unread
     </span>

@@ -33,7 +33,11 @@ interface CardDemoState {
   selectaleClickableDrawerIsExpanded: boolean;
 }
 
+<<<<<<< HEAD
 class CardDemo extends Component {
+=======
+class CardDemo extends React.Component {
+>>>>>>> main
   static displayName = 'CardDemo';
 
   state: CardDemoState = {

@@ -82,7 +82,11 @@ If you want to start with your existing project, skip to [Install and configure 
 
 ### Contribution guidelines
 All React contributors must first be [PatternFly community contributors](https://www.patternfly.org/get-started/contribute/contributing-to-patternfly). If you're already a PatternFly community contributor, check out the [React contribution guidelines](https://github.com/patternfly/patternfly-react/tree/main/CONTRIBUTING.md) to make React contributions.
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 
 ### License
 PatternFly React is licensed under the [MIT License](https://github.com/patternfly/patternfly-react/tree/main/LICENSE).
+    

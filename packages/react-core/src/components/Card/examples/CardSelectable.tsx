@@ -32,6 +32,7 @@ export const SelectableCard: React.FunctionComponent = () => {
   };
 
   return (
+<<<<<<< HEAD
     <>
       <Checkbox
         label="Secondary card styling"
@@ -100,5 +101,48 @@ export const SelectableCard: React.FunctionComponent = () => {
         </Gallery>
       </div>
     </>
+=======
+    <React.Fragment>
+      <Card id="selectable-card-example-1" isSelectable isSelected={isChecked1}>
+        <CardHeader
+          selectableActions={{
+            selectableActionId: id1,
+            selectableActionAriaLabelledby: 'selectable-card-example-1',
+            name: id1,
+            onChange
+          }}
+        >
+          <CardTitle>First card</CardTitle>
+        </CardHeader>
+        <CardBody>This card is selectable.</CardBody>
+      </Card>
+      <Card id="selectable-card-example-2" isSelectable isSelected={isChecked2}>
+        <CardHeader
+          selectableActions={{
+            selectableActionId: id2,
+            selectableActionAriaLabelledby: 'selectable-card-example-2',
+            name: id2,
+            onChange
+          }}
+        >
+          <CardTitle>Second card</CardTitle>
+        </CardHeader>
+        <CardBody>This card is selectable.</CardBody>
+      </Card>
+      <Card id="selectable-card-example-3" isSelectable isDisabled isSelected={isChecked3}>
+        <CardHeader
+          selectableActions={{
+            selectableActionId: id3,
+            selectableActionAriaLabelledby: 'selectable-card-example-3',
+            name: id3,
+            onChange
+          }}
+        >
+          <CardTitle>Third card</CardTitle>
+        </CardHeader>
+        <CardBody>This card is selectable but disabled.</CardBody>
+      </Card>
+    </React.Fragment>
+>>>>>>> main
   );
 };

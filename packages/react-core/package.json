@@ -1,6 +1,10 @@
 {
   "name": "@patternfly/react-core",
+<<<<<<< HEAD
   "version": "6.0.0-alpha.50",
+=======
+  "version": "5.3.0-prerelease.25",
+>>>>>>> main
   "description": "This library provides a set of common React components for use with the PatternFly reference implementation.",
   "main": "dist/js/index.js",
   "module": "dist/esm/index.js",
@@ -47,15 +51,25 @@
     "clean:exports": "node scripts/cleanDistExports.js"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@patternfly/react-icons": "^6.0.0-alpha.19",
     "@patternfly/react-styles": "^6.0.0-alpha.19",
     "@patternfly/react-tokens": "^6.0.0-alpha.19",
+=======
+    "@patternfly/react-icons": "^5.3.0-prerelease.3",
+    "@patternfly/react-styles": "^5.3.0-prerelease.3",
+    "@patternfly/react-tokens": "^5.3.0-prerelease.3",
+>>>>>>> main
     "focus-trap": "7.5.2",
     "react-dropzone": "^14.2.3",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "@patternfly/patternfly": "6.0.0-alpha.117",
+=======
+    "@patternfly/patternfly": "5.3.0-prerelease.5",
+>>>>>>> main
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
     "@rollup/plugin-replace": "^5.0.2",

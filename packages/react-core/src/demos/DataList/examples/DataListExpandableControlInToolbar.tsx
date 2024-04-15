@@ -28,7 +28,11 @@ import {
   TextContent
 } from '@patternfly/react-core';
 
+<<<<<<< HEAD
 import { DashboardWrapper } from '@patternfly/react-core/src/demos/DashboardWrapper';
+=======
+import { DashboardWrapper } from '@patternfly/react-core/dist/js/demos/DashboardWrapper';
+>>>>>>> main
 
 import CodeBranchIcon from '@patternfly/react-icons/dist/esm/icons/code-branch-icon';
 import AngleRightIcon from '@patternfly/react-icons/dist/esm/icons/angle-right-icon';

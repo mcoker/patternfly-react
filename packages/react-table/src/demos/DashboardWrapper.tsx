@@ -108,7 +108,11 @@ export const DashboardBreadcrumb = (
 );
 
 const PageTemplateTitle = (
+<<<<<<< HEAD
   <PageSection>
+=======
+  <PageSection variant="light">
+>>>>>>> main
     <TextContent>
       <Text component="h1">Main title</Text>
       <Text component="p">This is a full page demo.</Text>

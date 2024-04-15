@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<<<<<<< HEAD
 # [6.0.0-alpha.50](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@6.0.0-alpha.49...@patternfly/react-core@6.0.0-alpha.50) (2024-04-02)
 
 **Note:** Version bump only for package @patternfly/react-core
@@ -653,6 +654,108 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Bug Fixes
 
 - **RTL:** added right-to-left page demo ([#9694](https://github.com/patternfly/patternfly-react/issues/9694)) ([d7308ae](https://github.com/patternfly/patternfly-react/commit/d7308aebec1e3ff22df548b5613f058c9ba35262))
+=======
+# [5.3.0-prerelease.25](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.24...@patternfly/react-core@5.3.0-prerelease.25) (2024-04-09)
+
+**Note:** Version bump only for package @patternfly/react-core
+
+# [5.3.0-prerelease.24](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.23...@patternfly/react-core@5.3.0-prerelease.24) (2024-04-08)
+
+### Features
+
+- **MenuToggle:** allow split action toggle text ([#10256](https://github.com/patternfly/patternfly-react/issues/10256)) ([afd3b85](https://github.com/patternfly/patternfly-react/commit/afd3b85ef307117784527740d6ae6d442055fbb0))
+
+# [5.3.0-prerelease.23](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.22...@patternfly/react-core@5.3.0-prerelease.23) (2024-04-01)
+
+### Bug Fixes
+
+- **GenerateId:** revert default behavior change ([#10232](https://github.com/patternfly/patternfly-react/issues/10232)) ([eed19ab](https://github.com/patternfly/patternfly-react/commit/eed19ab298e7c4686fc89436dc0fe04e078ddf8d))
+
+# 5.3.0-prerelease.22 (2024-03-29)
+
+### Features
+
+- **Label:** allow clickable labels to be disabled ([#10199](https://github.com/patternfly/patternfly-react/issues/10199)) ([fda9ced](https://github.com/patternfly/patternfly-react/commit/fda9ced579ea0a19ed3f52fa9e06b33aad4210f2))
+
+# [5.3.0-prerelease.21](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.20...@patternfly/react-core@5.3.0-prerelease.21) (2024-03-28)
+
+**Note:** Version bump only for package @patternfly/react-core
+
+# [5.3.0-prerelease.20](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.19...@patternfly/react-core@5.3.0-prerelease.20) (2024-03-28)
+
+### Bug Fixes
+
+- **Card:** updated v5 logic to prevent unclickable cards ([#10202](https://github.com/patternfly/patternfly-react/issues/10202)) ([779e288](https://github.com/patternfly/patternfly-react/commit/779e288960dae6a2ea5198d948a668d3fb7b6cdc))
+
+# [5.3.0-prerelease.19](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.18...@patternfly/react-core@5.3.0-prerelease.19) (2024-03-27)
+
+### Bug Fixes
+
+- **TextArea:** remove invalid `onFocus` and `onBlur` props ([#10193](https://github.com/patternfly/patternfly-react/issues/10193)) ([afb2e19](https://github.com/patternfly/patternfly-react/commit/afb2e19f01b0135d0212f9a4249251d8ae6a9360)), closes [#10192](https://github.com/patternfly/patternfly-react/issues/10192)
+
+# [5.3.0-prerelease.18](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.17...@patternfly/react-core@5.3.0-prerelease.18) (2024-03-27)
+
+### Features
+
+- **MenuToggle/Select:** add status ([#10209](https://github.com/patternfly/patternfly-react/issues/10209)) ([2afe1bf](https://github.com/patternfly/patternfly-react/commit/2afe1bf95c7b1ff39eab007442b910c1c985206e))
+- **templates:** add templates package ([#10110](https://github.com/patternfly/patternfly-react/issues/10110)) ([41a22fb](https://github.com/patternfly/patternfly-react/commit/41a22fbc6d7e6b874fb3a862d6558ac6d17fae03))
+
+# [5.3.0-prerelease.17](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.16...@patternfly/react-core@5.3.0-prerelease.17) (2024-03-27)
+
+### Bug Fixes
+
+- **GenerateId:** add randomness to id generator to prevent id collisions ([#10178](https://github.com/patternfly/patternfly-react/issues/10178)) ([2375deb](https://github.com/patternfly/patternfly-react/commit/2375deb10e266445e8aff9da5b2fbbc033fbcf26))
+
+# [5.3.0-prerelease.16](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.15...@patternfly/react-core@5.3.0-prerelease.16) (2024-03-26)
+
+### Features
+
+- **Dropdown:** Added support for setting height for dropdown ([#10149](https://github.com/patternfly/patternfly-react/issues/10149)) ([9db5e7b](https://github.com/patternfly/patternfly-react/commit/9db5e7bda682eb034c1efb0998db9256d4b150c7))
+
+# 5.3.0-prerelease.15 (2024-03-26)
+
+### Bug Fixes
+
+- **misc:** demos not working due to variables not defined ([#10169](https://github.com/patternfly/patternfly-react/issues/10169)) ([e045572](https://github.com/patternfly/patternfly-react/commit/e045572e9ce326585e929fc4e2eb35e15d2b2d1b))
+
+# 5.3.0-prerelease.14 (2024-03-26)
+
+### Bug Fixes
+
+- **ClipboardCopy:** warn when clipboard API is unavailable ([#10186](https://github.com/patternfly/patternfly-react/issues/10186)) ([38736a1](https://github.com/patternfly/patternfly-react/commit/38736a1e6b827aacc6a70e72cb36ff9457b99b42))
+- **MenuToggle:** fix indeterminate checkbox error, toggle click behavior ([#10066](https://github.com/patternfly/patternfly-react/issues/10066)) ([132939e](https://github.com/patternfly/patternfly-react/commit/132939eb64859a4051dd2c7948829e39e57fa56d))
+- **Table:** updated a11y for empty/nontext Th components ([#10152](https://github.com/patternfly/patternfly-react/issues/10152)) ([48d8140](https://github.com/patternfly/patternfly-react/commit/48d8140d5ecd1d467b88c573cffbd86183dce898))
+
+# [5.3.0-prerelease.13](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.12...@patternfly/react-core@5.3.0-prerelease.13) (2024-03-25)
+
+### Bug Fixes
+
+- **docs:** fix undefined dashboard wrapper error in demos ([#10191](https://github.com/patternfly/patternfly-react/issues/10191)) ([3b1987a](https://github.com/patternfly/patternfly-react/commit/3b1987a7991c2f8ce596a30ac094bc0aa7eb3b1f))
+
+# [5.3.0-prerelease.12](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.11...@patternfly/react-core@5.3.0-prerelease.12) (2024-03-22)
+
+**Note:** Version bump only for package @patternfly/react-core
+
+# 5.3.0-prerelease.11 (2024-03-20)
+
+**Note:** Version bump only for package @patternfly/react-core
+
+# [5.3.0-prerelease.10](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.9...@patternfly/react-core@5.3.0-prerelease.10) (2024-03-15)
+
+**Note:** Version bump only for package @patternfly/react-core
+
+# [5.3.0-prerelease.9](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.8...@patternfly/react-core@5.3.0-prerelease.9) (2024-03-12)
+
+### Bug Fixes
+
+- **Menu:** Fix crash in menu referencing invalid array index ([#10153](https://github.com/patternfly/patternfly-react/issues/10153)) ([d3b53f5](https://github.com/patternfly/patternfly-react/commit/d3b53f515d71321a127f0bf8c4660a8bbac791c1))
+
+# 5.3.0-prerelease.8 (2024-03-11)
+
+### Bug Fixes
+
+- **Select:** focus first item when opened by click ([#10125](https://github.com/patternfly/patternfly-react/issues/10125)) ([7ed228a](https://github.com/patternfly/patternfly-react/commit/7ed228af0bac0da1a575a9773022e106ae3972f9))
+>>>>>>> main
 
 # [5.3.0-prerelease.7](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-core@5.3.0-prerelease.6...@patternfly/react-core@5.3.0-prerelease.7) (2024-02-28)
 

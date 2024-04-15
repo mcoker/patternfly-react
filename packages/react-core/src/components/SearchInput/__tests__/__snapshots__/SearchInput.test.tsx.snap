@@ -51,7 +51,11 @@ exports[`SearchInput advanced search 1`] = `
             <button
               aria-disabled="false"
               aria-label="Reset"
+<<<<<<< HEAD
               class="pf-v6-c-button pf-m-plain"
+=======
+              class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
               type="button"
             >
               <svg
@@ -78,7 +82,11 @@ exports[`SearchInput advanced search 1`] = `
           aria-disabled="false"
           aria-expanded="false"
           aria-label="Open advanced search"
+<<<<<<< HEAD
           class="pf-v6-c-button pf-m-control"
+=======
+          class="pf-v5-c-button pf-m-control"
+>>>>>>> main
           type="button"
         >
           <svg
@@ -102,7 +110,11 @@ exports[`SearchInput advanced search 1`] = `
         <button
           aria-disabled="false"
           aria-label="Search"
+<<<<<<< HEAD
           class="pf-v6-c-button pf-m-control"
+=======
+          class="pf-v5-c-button pf-m-control"
+>>>>>>> main
           type="submit"
         >
           <span
@@ -192,7 +204,11 @@ exports[`SearchInput advanced search with custom attributes 1`] = `
             <button
               aria-disabled="false"
               aria-label="Reset"
+<<<<<<< HEAD
               class="pf-v6-c-button pf-m-plain"
+=======
+              class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
               type="button"
             >
               <svg
@@ -219,7 +235,11 @@ exports[`SearchInput advanced search with custom attributes 1`] = `
           aria-disabled="false"
           aria-expanded="true"
           aria-label="Open advanced search"
+<<<<<<< HEAD
           class="pf-v6-c-button pf-m-control pf-m-expanded"
+=======
+          class="pf-v5-c-button pf-m-control pf-m-expanded"
+>>>>>>> main
           type="button"
         >
           <svg
@@ -243,7 +263,11 @@ exports[`SearchInput advanced search with custom attributes 1`] = `
         <button
           aria-disabled="false"
           aria-label="Search"
+<<<<<<< HEAD
           class="pf-v6-c-button pf-m-control"
+=======
+          class="pf-v5-c-button pf-m-control"
+>>>>>>> main
           type="submit"
         >
           <span
@@ -363,8 +387,13 @@ exports[`SearchInput advanced search with custom attributes 1`] = `
                   class="pf-v6-c-form__group-label"
                 >
                   <label
+<<<<<<< HEAD
                     class="pf-v6-c-form__label"
                     for="pf-random-id-2"
+=======
+                    class="pf-v5-c-form__label"
+                    for="generated-id"
+>>>>>>> main
                   >
                     <span
                       class="pf-v6-c-form__label-text"
@@ -382,7 +411,11 @@ exports[`SearchInput advanced search with custom attributes 1`] = `
                   >
                     <input
                       aria-invalid="false"
+<<<<<<< HEAD
                       id="pf-random-id-2"
+=======
+                      id="generated-id"
+>>>>>>> main
                       type="text"
                       value=""
                     />
@@ -397,7 +430,11 @@ exports[`SearchInput advanced search with custom attributes 1`] = `
                 >
                   <button
                     aria-disabled="false"
+<<<<<<< HEAD
                     class="pf-v6-c-button pf-m-link pf-m-inline"
+=======
+                    class="pf-v5-c-button pf-m-link pf-m-inline"
+>>>>>>> main
                     type="button"
                   >
                     Link
@@ -432,14 +469,22 @@ exports[`SearchInput advanced search with custom attributes 1`] = `
                   >
                     <button
                       aria-disabled="false"
+<<<<<<< HEAD
                       class="pf-v6-c-button pf-m-primary"
+=======
+                      class="pf-v5-c-button pf-m-primary"
+>>>>>>> main
                       type="submit"
                     >
                       Search
                     </button>
                     <button
                       aria-disabled="false"
+<<<<<<< HEAD
                       class="pf-v6-c-button pf-m-link"
+=======
+                      class="pf-v5-c-button pf-m-link"
+>>>>>>> main
                       type="reset"
                     >
                       Reset
@@ -507,7 +552,11 @@ exports[`SearchInput renders search input in strict mode 1`] = `
             <button
               aria-disabled="false"
               aria-label="Reset"
+<<<<<<< HEAD
               class="pf-v6-c-button pf-m-plain"
+=======
+              class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
               type="button"
             >
               <svg
@@ -534,7 +583,11 @@ exports[`SearchInput renders search input in strict mode 1`] = `
           aria-disabled="false"
           aria-expanded="false"
           aria-label="Open advanced search"
+<<<<<<< HEAD
           class="pf-v6-c-button pf-m-control"
+=======
+          class="pf-v5-c-button pf-m-control"
+>>>>>>> main
           type="button"
         >
           <svg
@@ -558,7 +611,11 @@ exports[`SearchInput renders search input in strict mode 1`] = `
         <button
           aria-disabled="false"
           aria-label="Search"
+<<<<<<< HEAD
           class="pf-v6-c-button pf-m-control"
+=======
+          class="pf-v5-c-button pf-m-control"
+>>>>>>> main
           type="submit"
         >
           <span
@@ -654,7 +711,11 @@ exports[`SearchInput search input with hint 1`] = `
             <button
               aria-disabled="false"
               aria-label="Previous"
+<<<<<<< HEAD
               class="pf-v6-c-button pf-m-plain"
+=======
+              class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
               type="button"
             >
               <svg
@@ -674,7 +735,11 @@ exports[`SearchInput search input with hint 1`] = `
             <button
               aria-disabled="false"
               aria-label="Next"
+<<<<<<< HEAD
               class="pf-v6-c-button pf-m-plain"
+=======
+              class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
               type="button"
             >
               <svg
@@ -695,7 +760,11 @@ exports[`SearchInput search input with hint 1`] = `
           <button
             aria-disabled="false"
             aria-label="Reset"
+<<<<<<< HEAD
             class="pf-v6-c-button pf-m-plain"
+=======
+            class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
             type="button"
           >
             <svg
@@ -721,7 +790,11 @@ exports[`SearchInput search input with hint 1`] = `
       <button
         aria-disabled="false"
         aria-label="Search"
+<<<<<<< HEAD
         class="pf-v6-c-button pf-m-control"
+=======
+        class="pf-v5-c-button pf-m-control"
+>>>>>>> main
         type="submit"
       >
         <span
@@ -802,7 +875,11 @@ exports[`SearchInput simple search input 1`] = `
             <button
               aria-disabled="false"
               aria-label="Previous"
+<<<<<<< HEAD
               class="pf-v6-c-button pf-m-plain"
+=======
+              class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
               type="button"
             >
               <svg
@@ -822,7 +899,11 @@ exports[`SearchInput simple search input 1`] = `
             <button
               aria-disabled="false"
               aria-label="Next"
+<<<<<<< HEAD
               class="pf-v6-c-button pf-m-plain"
+=======
+              class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
               type="button"
             >
               <svg
@@ -843,7 +924,11 @@ exports[`SearchInput simple search input 1`] = `
           <button
             aria-disabled="false"
             aria-label="Reset"
+<<<<<<< HEAD
             class="pf-v6-c-button pf-m-plain"
+=======
+            class="pf-v5-c-button pf-m-plain"
+>>>>>>> main
             type="button"
           >
             <svg
@@ -869,7 +954,11 @@ exports[`SearchInput simple search input 1`] = `
       <button
         aria-disabled="false"
         aria-label="Search"
+<<<<<<< HEAD
         class="pf-v6-c-button pf-m-control"
+=======
+        class="pf-v5-c-button pf-m-control"
+>>>>>>> main
         type="submit"
       >
         <span

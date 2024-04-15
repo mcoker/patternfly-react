@@ -152,9 +152,15 @@ import CogIcon from '@patternfly/react-icons/dist/esm/icons/cog-icon';
 
 ### Plain toggle with icon
 
+<<<<<<< HEAD
 To apply plain styling to a menu toggle with an icon, pass in `variant="plain"` and pass the icon to the `icon` property. This will remove the default bottom border and caret. The following example passes in an `EllipsisVIcon`.
 
 If the toggle does not have any visible text content, you must pass in the `aria-label` property to provide an accessible name.
+=======
+To apply plain styling to a menu toggle with an icon, pass in `variant="plain"`. This will remove the default bottom border and caret. You may pass in an `icon` to serve as the menu toggle. The following example passes in an `EllipsisVIcon`.
+
+If the toggle does not have any visible text content, use the `aria-label` property to provide an accessible name.
+>>>>>>> main
 
 ```ts
 import React from 'react';
@@ -203,12 +209,25 @@ Variant styling can be applied to split button toggles to adjust their appearanc
 
 ```
 
-### Split button toggle with text label
+### Split button toggle with checkbox label
 
 To display text in a split button menu toggle, add a label to the `items` property of `splitButtonOptions`.
 
 ```ts file='MenuToggleSplitButtonCheckboxWithText.tsx'
 
+<<<<<<< HEAD
+=======
+```
+
+### Split button toggle with checkbox and toggle button text
+
+For split button toggles that should still contain text which will trigger the toggle's `onClick`, pass `children` to the `MenuToggle`.
+
+The following example shows a split button with a `<MenuToggleCheckbox>` and toggle button text.
+
+```ts file='MenuToggleSplitButtonCheckboxWithToggleText.tsx'
+
+>>>>>>> main
 ```
 
 ### Split button toggle with action
@@ -265,4 +284,17 @@ To create a multiple typeahead toggle, pass a `<TextInputGroup>` component imple
 
 ```ts file='MenuToggleTypeahead.tsx'
 
+<<<<<<< HEAD
+=======
+```
+
+### Status toggle
+
+To create a toggle with a status, pass in the `status` property to the `MenuToggle`. The default icon associated with each status may be overridden by using the `statusIcon` property.
+
+When the status value is "warning" or "danger", you must include helper text that conveys what is causing the warning/error.
+
+```ts isBeta file='MenuToggleStatus.tsx'
+
+>>>>>>> main
 ```

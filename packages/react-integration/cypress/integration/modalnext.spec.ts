@@ -7,6 +7,7 @@ describe('Modal Test', () => {
     cy.get('#showHalfWidthModalButton').then((modalButton: JQuery<HTMLButtonElement>) => {
       cy.wrap(modalButton).click();
 
+<<<<<<< HEAD
       cy.get('.pf-v6-c-page').then((page: JQuery<HTMLElement>) => {
         cy.get('.pf-v6-c-modal-box')
           .then(() => {
@@ -14,13 +15,28 @@ describe('Modal Test', () => {
             cy.get('.pf-v6-c-modal-box .pf-v6-c-button[aria-label="Close"]').then((closeButton) => {
               cy.wrap(closeButton).click();
               cy.get('.pf-v6-c-modal-box').should('not.exist');
+=======
+      cy.get('.pf-v5-c-page').then((page: JQuery<HTMLElement>) => {
+        cy.get('.pf-v5-c-modal-box')
+          .then(() => {
+            cy.get('.pf-v5-c-modal-box').should('have.css', 'width', `${page.width() / 2}px`);
+            cy.get('.pf-v5-c-modal-box .pf-v5-c-button[aria-label="Close"]').then((closeButton) => {
+              cy.wrap(closeButton).click();
+              cy.get('.pf-v5-c-modal-box').should('not.exist');
+>>>>>>> main
             });
           })
           .then(() => {
             cy.wrap(modalButton).click();
+<<<<<<< HEAD
             cy.get('.pf-v6-c-modal-box').should('exist');
             cy.get('body').type('{esc}');
             cy.get('.pf-v6-c-modal-box').should('not.exist');
+=======
+            cy.get('.pf-v5-c-modal-box').should('exist');
+            cy.get('body').type('{esc}');
+            cy.get('.pf-v5-c-modal-box').should('not.exist');
+>>>>>>> main
           });
       });
     });
@@ -30,20 +46,35 @@ describe('Modal Test', () => {
     cy.get('#showCustomEscapeModalButton.customEscapePressed').should('not.exist');
     cy.get('#showCustomEscapeModalButton').then((modalButton: JQuery<HTMLButtonElement>) => {
       cy.wrap(modalButton).click();
+<<<<<<< HEAD
       cy.get('.pf-v6-c-modal-box').should('exist');
       cy.get('.pf-v6-c-modal-box')
         .then(() => {
           cy.get('.pf-v6-c-modal-box .pf-v6-c-button[aria-label="Close"]').then((closeButton) => {
             cy.wrap(closeButton).click();
             cy.get('.pf-v6-c-modal-box').should('not.exist');
+=======
+      cy.get('.pf-v5-c-modal-box').should('exist');
+      cy.get('.pf-v5-c-modal-box')
+        .then(() => {
+          cy.get('.pf-v5-c-modal-box .pf-v5-c-button[aria-label="Close"]').then((closeButton) => {
+            cy.wrap(closeButton).click();
+            cy.get('.pf-v5-c-modal-box').should('not.exist');
+>>>>>>> main
             cy.get('#showCustomEscapeModalButton.customEscapePressed').should('not.exist');
           });
         })
         .then(() => {
           cy.wrap(modalButton).click();
+<<<<<<< HEAD
           cy.get('.pf-v6-c-modal-box').should('exist');
           cy.get('body').type('{esc}');
           cy.get('.pf-v6-c-modal-box').should('not.exist');
+=======
+          cy.get('.pf-v5-c-modal-box').should('exist');
+          cy.get('body').type('{esc}');
+          cy.get('.pf-v5-c-modal-box').should('not.exist');
+>>>>>>> main
           cy.get('#showCustomEscapeModalButton.customEscapePressed').should('exist');
         });
     });
@@ -78,16 +109,28 @@ describe('Modal Test', () => {
     // @ts-ignore
     cy.tab().tab().click(); // open second modal
 
+<<<<<<< HEAD
     cy.get('.pf-v6-c-modal-box').should('exist');
     // press escape key
     cy.get('body').type('{esc}');
     cy.get('.pf-v6-c-modal-box').should('not.exist');
+=======
+    cy.get('.pf-v5-c-modal-box').should('exist');
+    // press escape key
+    cy.get('body').type('{esc}');
+    cy.get('.pf-v5-c-modal-box').should('not.exist');
+>>>>>>> main
   });
 
   it('Verify first focusable element receives focus by default', () => {
     cy.get('#showDefaultModalButton').click();
+<<<<<<< HEAD
     cy.get('.pf-v6-c-modal-box__close > .pf-v6-c-button.pf-m-plain').should('have.focus');
     cy.get('.pf-v6-c-modal-box__close > .pf-v6-c-button.pf-m-plain').click();
+=======
+    cy.get('.pf-v5-c-modal-box__close > .pf-v5-c-button.pf-m-plain').should('have.focus');
+    cy.get('.pf-v5-c-modal-box__close > .pf-v5-c-button.pf-m-plain').click();
+>>>>>>> main
   });
 
   it('Verify custom element receives focus', () => {
@@ -101,6 +144,10 @@ describe('Modal Test', () => {
 
     cy.get('body').find('div#test-modal-id').should('have.length', 1);
 
+<<<<<<< HEAD
     cy.get('.pf-v6-c-modal-box__close > .pf-v6-c-button.pf-m-plain').click();
+=======
+    cy.get('.pf-v5-c-modal-box__close > .pf-v5-c-button.pf-m-plain').click();
+>>>>>>> main
   });
 });

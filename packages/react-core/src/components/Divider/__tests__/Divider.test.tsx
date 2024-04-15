@@ -10,7 +10,11 @@ test(`Renders with only the class name ${styles.divider} by default`, () => {
 
 test('Renders with horizontal rule by default', () => {
   render(<Divider />);
+<<<<<<< HEAD
   expect(screen.getByRole('separator')).toContainHTML('<hr class="pf-v6-c-divider" />');
+=======
+  expect(screen.getByRole('separator')).toContainHTML('<hr class="pf-v5-c-divider" />');
+>>>>>>> main
 });
 
 test('Renders with element passed to component prop', () => {

@@ -7,6 +7,8 @@ import { ChipGroup } from '../index';
 import { Chip } from '..';
 import styles from '@patternfly/react-styles/css/components/Label/label-group';
 
+jest.mock('../../../helpers/GenerateId/GenerateId');
+
 test('chip group default', () => {
   render(
     <ChipGroup>
@@ -71,7 +73,11 @@ test('chip group has aria-labelledby attribute', () => {
       <Chip>1.1</Chip>
     </ChipGroup>
   );
+<<<<<<< HEAD:packages/react-core/src/deprecated/components/Chip/__tests__/ChipGroup.test.tsx
   expect(screen.getByRole('list')).toHaveAttribute('aria-labelledby', expect.stringContaining(`pf-random-id`));
+=======
+  expect(screen.getByRole('group')).toHaveAttribute('aria-labelledby', expect.stringContaining(`generated-id`));
+>>>>>>> main:packages/react-core/src/components/Chip/__tests__/ChipGroup.test.tsx
 });
 
 test('chip group has aria-labelledby attribute set to ID value', () => {

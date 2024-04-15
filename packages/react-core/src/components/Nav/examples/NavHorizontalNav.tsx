@@ -11,7 +11,11 @@ export const NavHorizontalNav: React.FunctionComponent = () => {
   return (
     <Nav onSelect={onSelect} variant="horizontal" aria-label="Horizontal nav local">
       <NavList>
+<<<<<<< HEAD:packages/react-core/src/components/Nav/examples/NavHorizontalNav.tsx
         {Array.from({ length: 10 }).map((_value, index) => {
+=======
+        {Array.from({ length: 10 }).map(function (_value, index) {
+>>>>>>> main:packages/react-core/src/components/Nav/examples/NavLegacyTertiary.tsx
           const num = index + 1;
           return (
             <NavItem

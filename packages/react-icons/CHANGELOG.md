@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<<<<<<< HEAD
 # 6.0.0-alpha.19 (2024-04-02)
 
 **Note:** Version bump only for package @patternfly/react-icons
@@ -140,6 +141,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 **Note:** Version bump only for package @patternfly/react-icons
 
 # 5.2.0-prerelease.6 (2023-11-03)
+=======
+# 5.3.0-prerelease.3 (2024-03-26)
+
+**Note:** Version bump only for package @patternfly/react-icons
+
+# 5.3.0-prerelease.2 (2024-03-22)
+>>>>>>> main
 
 **Note:** Version bump only for package @patternfly/react-icons
 

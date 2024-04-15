@@ -26,7 +26,19 @@ yarn add @patternfly/react-code-editor
 or
 
 ```
-npm install @patternfly/react-code-editor --save
+npm install @patternfly/react-code-editor
+```
+
+[!NOTE] For TypeScript type definitions, this package uses the `monaco-editor` package as a peer dependency. So, if you need types and don't already have the `monaco-editor package` installed, you will need to do so:
+
+```
+yarn add --dev monaco-editor
+```
+
+or
+
+```
+npm install --dev monaco-editor
 ```
 
 ### Usage
@@ -43,6 +55,7 @@ import '@patternfly/react-core/dist/styles/base.css';
 import { CodeEditor } from '@patternfly/react-code-editor';
 ```
 
+<<<<<<< HEAD
 Install peer deps
 
 ```json
@@ -51,6 +64,8 @@ Install peer deps
 "react-dom": "^17 || ^18"
 ```
 
+=======
+>>>>>>> main
 #### With create-react-app Projects
 
 If you created your project with `create-react-app` you'll have some extra work to do, or you wont have syntax highlighting. Using the webpack plugin requires updating your webpack config, which `create-react-app` abstracts away. You can `npm eject` your project, but you may not want to do that. To keep your app set up in the `create-react-app` style but to get access to your webpack config you can use `react-app-rewired`.

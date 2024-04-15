@@ -5,7 +5,11 @@ exports[`ModalBox Test 1`] = `
   <div
     aria-describedby="Test Modal Box"
     aria-modal="true"
+<<<<<<< HEAD
     class="pf-v6-c-modal-box"
+=======
+    class="pf-v5-c-modal-box"
+>>>>>>> main
     id="boxId"
     role="dialog"
   >
@@ -19,7 +23,11 @@ exports[`ModalBox Test large 1`] = `
   <div
     aria-describedby="Test Modal Box"
     aria-modal="true"
+<<<<<<< HEAD
     class="pf-v6-c-modal-box pf-m-lg"
+=======
+    class="pf-v5-c-modal-box pf-m-lg"
+>>>>>>> main
     id="boxId"
     role="dialog"
   >
@@ -33,7 +41,11 @@ exports[`ModalBox Test medium 1`] = `
   <div
     aria-describedby="Test Modal Box"
     aria-modal="true"
+<<<<<<< HEAD
     class="pf-v6-c-modal-box pf-m-md"
+=======
+    class="pf-v5-c-modal-box pf-m-md"
+>>>>>>> main
     id="boxId"
     role="dialog"
   >
@@ -47,7 +59,11 @@ exports[`ModalBox Test small 1`] = `
   <div
     aria-describedby="Test Modal Box"
     aria-modal="true"
+<<<<<<< HEAD
     class="pf-v6-c-modal-box pf-m-sm"
+=======
+    class="pf-v5-c-modal-box pf-m-sm"
+>>>>>>> main
     id="boxId"
     role="dialog"
   >
@@ -61,7 +77,11 @@ exports[`ModalBox Test top aligned 1`] = `
   <div
     aria-describedby="Test Modal Box"
     aria-modal="true"
+<<<<<<< HEAD
     class="pf-v6-c-modal-box pf-m-align-top"
+=======
+    class="pf-v5-c-modal-box pf-m-align-top"
+>>>>>>> main
     id="boxId"
     role="dialog"
   >
@@ -75,10 +95,17 @@ exports[`ModalBox Test top aligned distance 1`] = `
   <div
     aria-describedby="Test Modal Box"
     aria-modal="true"
+<<<<<<< HEAD
     class="pf-v6-c-modal-box pf-m-align-top"
     id="boxId"
     role="dialog"
     style="--pf-v6-c-modal-box--m-align-top--spacer: 50px;"
+=======
+    class="pf-v5-c-modal-box pf-m-align-top"
+    id="boxId"
+    role="dialog"
+    style="--pf-v5-c-modal-box--m-align-top--spacer: 50px;"
+>>>>>>> main
   >
     This is a ModalBox
   </div>

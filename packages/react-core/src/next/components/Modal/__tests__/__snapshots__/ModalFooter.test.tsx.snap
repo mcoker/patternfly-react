@@ -3,7 +3,11 @@
 exports[`ModalFooter Test 1`] = `
 <DocumentFragment>
   <footer
+<<<<<<< HEAD
     class="pf-v6-c-modal-box__footer test-box-footer-class"
+=======
+    class="pf-v5-c-modal-box__footer test-box-footer-class"
+>>>>>>> main
   >
     This is a ModalBox Footer
   </footer>

@@ -7,8 +7,13 @@ exports[`Matches snapshot 1`] = `
   >
     <button
       aria-disabled="false"
+<<<<<<< HEAD
       class="pf-v6-c-button pf-m-plain"
       data-ouia-component-id="OUIA-Generated-Button-plain-1"
+=======
+      class="pf-v5-c-button pf-m-control"
+      data-ouia-component-id="OUIA-Generated-Button-control-1"
+>>>>>>> main
       data-ouia-component-type="PF5/Button"
       data-ouia-safe="true"
       type="button"

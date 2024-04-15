@@ -15,8 +15,15 @@ import {
   SearchInput,
   EmptyState,
   EmptyStateVariant,
+<<<<<<< HEAD
   EmptyStateFooter,
   EmptyStateBody,
+=======
+  EmptyStateHeader,
+  EmptyStateFooter,
+  EmptyStateBody,
+  EmptyStateIcon,
+>>>>>>> main
   EmptyStateActions,
   MenuToggle,
   MenuToggleElement
@@ -224,7 +231,12 @@ export const DualListSelectorComplexOptionsActionsNext: React.FunctionComponent 
   };
 
   const buildEmptyState = (isAvailable: boolean) => (
+<<<<<<< HEAD
     <EmptyState headingLevel="h4" titleText="No results found" icon={SearchIcon} variant={EmptyStateVariant.sm}>
+=======
+    <EmptyState variant={EmptyStateVariant.sm}>
+      <EmptyStateHeader headingLevel="h4" titleText="No results found" icon={<EmptyStateIcon icon={SearchIcon} />} />
+>>>>>>> main
       <EmptyStateBody>No results match the filter criteria. Clear all filters and try again.</EmptyStateBody>
       <EmptyStateFooter>
         <EmptyStateActions>

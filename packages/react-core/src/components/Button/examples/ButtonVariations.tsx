@@ -7,6 +7,7 @@ import CopyIcon from '@patternfly/react-icons/dist/esm/icons/copy-icon';
 import BellIcon from '@patternfly/react-icons/dist/esm/icons/bell-icon';
 
 export const ButtonVariations: React.FunctionComponent = () => (
+<<<<<<< HEAD
   <>
     <Flex columnGap={{ default: 'columnGapSm' }}>
       <Button variant="primary" ouiaId="Primary">
@@ -28,6 +29,30 @@ export const ButtonVariations: React.FunctionComponent = () => (
         Warning
       </Button>
     </Flex>
+=======
+  <React.Fragment>
+    <Button variant="primary" ouiaId="Primary">
+      Primary
+    </Button>{' '}
+    <Button variant="primary" icon={<ExternalLinkSquareAltIcon />} ouiaId="PrimaryWithIcon">
+      Primary with icon
+    </Button>{' '}
+    <Button variant="secondary" ouiaId="Secondary">
+      Secondary
+    </Button>{' '}
+    <Button variant="secondary" ouiaId="DangerSecondary" isDanger>
+      Danger Secondary
+    </Button>{' '}
+    <Button variant="tertiary" ouiaId="Tertiary">
+      Tertiary
+    </Button>{' '}
+    <Button variant="danger" ouiaId="Danger">
+      Danger
+    </Button>{' '}
+    <Button variant="warning" ouiaId="Warning">
+      Warning
+    </Button>
+>>>>>>> main
     <br />
     <Flex columnGap={{ default: 'columnGapSm' }}>
       <Button variant="link" icon={<PlusCircleIcon />}>

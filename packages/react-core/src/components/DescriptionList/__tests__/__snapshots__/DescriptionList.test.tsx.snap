@@ -3,7 +3,11 @@
 exports[`Renders to match snapshot 1`] = `
 <DocumentFragment>
   <dl
+<<<<<<< HEAD
     class="pf-v6-c-description-list"
+=======
+    class="pf-v5-c-description-list"
+>>>>>>> main
   />
 </DocumentFragment>
 `;

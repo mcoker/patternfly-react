@@ -22,7 +22,11 @@ import {
   TextContent,
   Title
 } from '@patternfly/react-core';
+<<<<<<< HEAD
 import { DashboardWrapper } from '@patternfly/react-core/src/demos/DashboardWrapper';
+=======
+import { DashboardWrapper } from '@patternfly/react-core/dist/js/demos/DashboardWrapper';
+>>>>>>> main
 
 export const PrimaryDetailSimpleListInCard: React.FunctionComponent = () => {
   const [drawerPanelBodyContent, setDrawerPanelBodyContent] = React.useState(1);

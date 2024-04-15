@@ -3,7 +3,11 @@
 exports[`Cell renders to match snapshot 1`] = `
 <DocumentFragment>
   <div
+<<<<<<< HEAD
     class="pf-v6-c-data-list__cell"
+=======
+    class="pf-v5-c-data-list__cell"
+>>>>>>> main
   >
     Secondary
   </div>

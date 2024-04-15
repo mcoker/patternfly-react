@@ -3,15 +3,23 @@
 exports[`Matches snapshot 1`] = `
 <DocumentFragment>
   <div
+<<<<<<< HEAD
     class="pf-v6-c-tree-view__search"
   >
     <div
       class="pf-v6-c-form-control pf-m-icon"
+=======
+    class="pf-v5-c-tree-view__search"
+  >
+    <div
+      class="pf-v5-c-form-control pf-m-icon"
+>>>>>>> main
     >
       <input
         type="search"
       />
       <div
+<<<<<<< HEAD
         class="pf-v6-c-form-control__utilities"
       >
         <div
@@ -20,6 +28,16 @@ exports[`Matches snapshot 1`] = `
           <svg
             aria-hidden="true"
             class="pf-v6-svg"
+=======
+        class="pf-v5-c-form-control__utilities"
+      >
+        <div
+          class="pf-v5-c-form-control__icon"
+        >
+          <svg
+            aria-hidden="true"
+            class="pf-v5-svg"
+>>>>>>> main
             fill="currentColor"
             height="1em"
             role="img"

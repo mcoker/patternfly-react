@@ -17,6 +17,11 @@ export interface RadioProps
   id: string;
   /** Flag to indicate whether the radio wrapper element is a native label element for the radio input. Will not apply if a component prop (with a value other than a "label") is specified. */
   isLabelWrapped?: boolean;
+<<<<<<< HEAD
+=======
+  /** Flag to show if the radio label is shown before the radio input. */
+  isLabelBeforeButton?: boolean;
+>>>>>>> main
   /** Flag to show if the radio is checked. */
   checked?: boolean;
   /** Flag to show if the radio is checked. */
@@ -132,7 +137,11 @@ class Radio extends React.Component<RadioProps, { ouiaStateId: string }> {
         className={css(styles.radio, !label && styles.modifiers.standalone, className)}
         htmlFor={wrapWithLabel ? props.id : undefined}
       >
+<<<<<<< HEAD
         {labelPosition === 'start' ? (
+=======
+        {isLabelBeforeButton ? (
+>>>>>>> main
           <>
             {labelRendered}
             {inputRendered}

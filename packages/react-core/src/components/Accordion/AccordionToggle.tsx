@@ -29,8 +29,11 @@ export const AccordionToggle: React.FunctionComponent<AccordionToggleProps> = ({
     </span>
   );
 
+<<<<<<< HEAD
   const { isExpanded } = React.useContext(AccordionItemContext);
 
+=======
+>>>>>>> main
   return (
     <AccordionContext.Consumer>
       {({ ToggleContainer, togglePosition }) => {

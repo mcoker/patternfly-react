@@ -17,6 +17,10 @@ module.exports = (baseSourceMD, sourceProps) => {
     .resolve('@patternfly/react-code-editor/package.json')
     .replace('package.json', 'src');
   const reactDragDropPath = require.resolve('@patternfly/react-drag-drop/package.json').replace('package.json', 'src');
+<<<<<<< HEAD
+=======
+  const reactTemplatesPath = require.resolve('@patternfly/react-templates/package.json').replace('package.json', 'src');
+>>>>>>> main
   const reactPropsIgnore = '**/*.test.tsx';
 
   sourceProps(path.join(reactCorePath, '/**/*.tsx'), reactPropsIgnore);
@@ -24,6 +28,10 @@ module.exports = (baseSourceMD, sourceProps) => {
   sourceProps(path.join(reactChartsPath, '/**/*.tsx'), reactPropsIgnore);
   sourceProps(path.join(reactCodeEditorPath, '/**/*.tsx'), reactPropsIgnore);
   sourceProps(path.join(reactDragDropPath, '/**/*.tsx'), reactPropsIgnore);
+<<<<<<< HEAD
+=======
+  sourceProps(path.join(reactTemplatesPath, '/**/*.tsx'), reactPropsIgnore);
+>>>>>>> main
 
   // React MD
   sourceMD(path.join(reactCorePath, '/components/**/examples/*.md'), 'react');
@@ -46,6 +54,12 @@ module.exports = (baseSourceMD, sourceProps) => {
   // Drag drop MD
   sourceMD(path.join(reactDragDropPath, '/**/examples/*.md'), 'react-next');
 
+<<<<<<< HEAD
+=======
+  // Templates MD
+  sourceMD(path.join(reactTemplatesPath, '/**/examples/*.md'), 'react-templates');
+
+>>>>>>> main
   // OUIA MD
   sourceMD(path.join(reactCorePath, 'helpers/OUIA/OUIA.md'), 'react');
 };

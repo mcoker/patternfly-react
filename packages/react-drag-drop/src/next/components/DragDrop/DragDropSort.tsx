@@ -126,7 +126,11 @@ export const DragDropSort: React.FunctionComponent<DragDropSortProps> = ({
         className={css(styles.draggable, styles.modifiers.dragging)}
         style={
           {
+<<<<<<< HEAD
             '--pf-v6-c-draggable--m-dragging--BackgroundColor': 'var(--pf-v6-global--BackgroundColor--100)'
+=======
+            '--pf-v5-c-draggable--m-dragging--BackgroundColor': 'var(--pf-v5-global--BackgroundColor--100)'
+>>>>>>> main
           } as React.CSSProperties
         }
       >

@@ -55,7 +55,12 @@ import CubeIcon from '@patternfly/react-icons/dist/esm/icons/cube-icon';
 import FilterIcon from '@patternfly/react-icons/dist/esm/icons/filter-icon';
 import SortAmountDownIcon from '@patternfly/react-icons/dist/esm/icons/sort-amount-down-icon';
 import { KeyTypes } from '../../../helpers';
+<<<<<<< HEAD
 import { DashboardWrapper } from '@patternfly/react-core/src/demos/DashboardWrapper';
+=======
+import display from '@patternfly/react-styles/css/utilities/Display/display';
+import { DashboardWrapper } from '@patternfly/react-core/dist/js/demos/DashboardWrapper';
+>>>>>>> main
 
 interface Repository {
   name: string;
@@ -225,7 +230,7 @@ export const TablesAndTabs = () => {
     <Table aria-label="`Composable` table">
       <Thead noWrap>
         <Tr>
-          <Th />
+          <Th screenReaderText="Row select" />
           <Th>{columnNames.name}</Th>
           <Th>{columnNames.branches}</Th>
           <Th>{columnNames.prs}</Th>

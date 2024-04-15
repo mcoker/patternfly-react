@@ -696,8 +696,13 @@ exports[`checkbox select renders checkbox select groups successfully 1`] = `
             class="pf-v6-c-check pf-v6-c-select__menu-item"
           >
             <input
+<<<<<<< HEAD
               class="pf-v6-c-check__input"
               id="pf-random-id-16-Mr"
+=======
+              class="pf-v5-c-check__input"
+              id="generated-id-Mr"
+>>>>>>> main
               type="checkbox"
             />
             <span
@@ -710,8 +715,13 @@ exports[`checkbox select renders checkbox select groups successfully 1`] = `
             class="pf-v6-c-check pf-v6-c-select__menu-item"
           >
             <input
+<<<<<<< HEAD
               class="pf-v6-c-check__input"
               id="pf-random-id-16-Mrs"
+=======
+              class="pf-v5-c-check__input"
+              id="generated-id-Mrs"
+>>>>>>> main
               type="checkbox"
             />
             <span
@@ -724,8 +734,13 @@ exports[`checkbox select renders checkbox select groups successfully 1`] = `
             class="pf-v6-c-check pf-v6-c-select__menu-item"
           >
             <input
+<<<<<<< HEAD
               class="pf-v6-c-check__input"
               id="pf-random-id-16-Ms"
+=======
+              class="pf-v5-c-check__input"
+              id="generated-id-Ms"
+>>>>>>> main
               type="checkbox"
             />
             <span
@@ -738,8 +753,13 @@ exports[`checkbox select renders checkbox select groups successfully 1`] = `
             class="pf-v6-c-check pf-v6-c-select__menu-item"
           >
             <input
+<<<<<<< HEAD
               class="pf-v6-c-check__input"
               id="pf-random-id-16-Other"
+=======
+              class="pf-v5-c-check__input"
+              id="generated-id-Other"
+>>>>>>> main
               type="checkbox"
             />
             <span
@@ -768,8 +788,13 @@ exports[`checkbox select renders checkbox select groups successfully 1`] = `
             class="pf-v6-c-check pf-v6-c-select__menu-item"
           >
             <input
+<<<<<<< HEAD
               class="pf-v6-c-check__input"
               id="pf-random-id-16-Mr"
+=======
+              class="pf-v5-c-check__input"
+              id="generated-id-Mr"
+>>>>>>> main
               type="checkbox"
             />
             <span
@@ -782,8 +807,13 @@ exports[`checkbox select renders checkbox select groups successfully 1`] = `
             class="pf-v6-c-check pf-v6-c-select__menu-item"
           >
             <input
+<<<<<<< HEAD
               class="pf-v6-c-check__input"
               id="pf-random-id-16-Mrs"
+=======
+              class="pf-v5-c-check__input"
+              id="generated-id-Mrs"
+>>>>>>> main
               type="checkbox"
             />
             <span
@@ -796,8 +826,13 @@ exports[`checkbox select renders checkbox select groups successfully 1`] = `
             class="pf-v6-c-check pf-v6-c-select__menu-item"
           >
             <input
+<<<<<<< HEAD
               class="pf-v6-c-check__input"
               id="pf-random-id-16-Ms"
+=======
+              class="pf-v5-c-check__input"
+              id="generated-id-Ms"
+>>>>>>> main
               type="checkbox"
             />
             <span
@@ -810,8 +845,13 @@ exports[`checkbox select renders checkbox select groups successfully 1`] = `
             class="pf-v6-c-check pf-v6-c-select__menu-item"
           >
             <input
+<<<<<<< HEAD
               class="pf-v6-c-check__input"
               id="pf-random-id-16-Other"
+=======
+              class="pf-v5-c-check__input"
+              id="generated-id-Other"
+>>>>>>> main
               type="checkbox"
             />
             <span
@@ -1021,8 +1061,13 @@ exports[`checkbox select renders expanded successfully 1`] = `
         class="pf-v6-c-check pf-v6-c-select__menu-item"
       >
         <input
+<<<<<<< HEAD
           class="pf-v6-c-check__input"
           id="pf-random-id-13-Mr"
+=======
+          class="pf-v5-c-check__input"
+          id="generated-id-Mr"
+>>>>>>> main
           type="checkbox"
         />
         <span
@@ -1035,8 +1080,13 @@ exports[`checkbox select renders expanded successfully 1`] = `
         class="pf-v6-c-check pf-v6-c-select__menu-item"
       >
         <input
+<<<<<<< HEAD
           class="pf-v6-c-check__input"
           id="pf-random-id-13-Mrs"
+=======
+          class="pf-v5-c-check__input"
+          id="generated-id-Mrs"
+>>>>>>> main
           type="checkbox"
         />
         <span
@@ -1049,8 +1099,13 @@ exports[`checkbox select renders expanded successfully 1`] = `
         class="pf-v6-c-check pf-v6-c-select__menu-item"
       >
         <input
+<<<<<<< HEAD
           class="pf-v6-c-check__input"
           id="pf-random-id-13-Ms"
+=======
+          class="pf-v5-c-check__input"
+          id="generated-id-Ms"
+>>>>>>> main
           type="checkbox"
         />
         <span
@@ -1063,8 +1118,13 @@ exports[`checkbox select renders expanded successfully 1`] = `
         class="pf-v6-c-check pf-v6-c-select__menu-item"
       >
         <input
+<<<<<<< HEAD
           class="pf-v6-c-check__input"
           id="pf-random-id-13-Other"
+=======
+          class="pf-v5-c-check__input"
+          id="generated-id-Other"
+>>>>>>> main
           type="checkbox"
         />
         <span
@@ -1128,8 +1188,13 @@ exports[`checkbox select renders expanded successfully with custom objects 1`] =
         class="pf-v6-c-check pf-v6-c-select__menu-item"
       >
         <input
+<<<<<<< HEAD
           class="pf-v6-c-check__input"
           id="pf-random-id-15-Mr: User One"
+=======
+          class="pf-v5-c-check__input"
+          id="generated-id-Mr: User One"
+>>>>>>> main
           type="checkbox"
         />
         <span
@@ -1142,8 +1207,13 @@ exports[`checkbox select renders expanded successfully with custom objects 1`] =
         class="pf-v6-c-check pf-v6-c-select__menu-item"
       >
         <input
+<<<<<<< HEAD
           class="pf-v6-c-check__input"
           id="pf-random-id-15-Mrs: New User"
+=======
+          class="pf-v5-c-check__input"
+          id="generated-id-Mrs: New User"
+>>>>>>> main
           type="checkbox"
         />
         <span
@@ -1156,8 +1226,13 @@ exports[`checkbox select renders expanded successfully with custom objects 1`] =
         class="pf-v6-c-check pf-v6-c-select__menu-item"
       >
         <input
+<<<<<<< HEAD
           class="pf-v6-c-check__input"
           id="pf-random-id-15-Ms: Test Three"
+=======
+          class="pf-v5-c-check__input"
+          id="generated-id-Ms: Test Three"
+>>>>>>> main
           type="checkbox"
         />
         <span
@@ -1238,8 +1313,13 @@ exports[`checkbox select renders expanded with filtering successfully 1`] = `
           class="pf-v6-c-check pf-v6-c-select__menu-item"
         >
           <input
+<<<<<<< HEAD
             class="pf-v6-c-check__input"
             id="pf-random-id-14-Mr"
+=======
+            class="pf-v5-c-check__input"
+            id="generated-id-Mr"
+>>>>>>> main
             type="checkbox"
           />
           <span
@@ -1252,8 +1332,13 @@ exports[`checkbox select renders expanded with filtering successfully 1`] = `
           class="pf-v6-c-check pf-v6-c-select__menu-item"
         >
           <input
+<<<<<<< HEAD
             class="pf-v6-c-check__input"
             id="pf-random-id-14-Mrs"
+=======
+            class="pf-v5-c-check__input"
+            id="generated-id-Mrs"
+>>>>>>> main
             type="checkbox"
           />
           <span
@@ -1266,8 +1351,13 @@ exports[`checkbox select renders expanded with filtering successfully 1`] = `
           class="pf-v6-c-check pf-v6-c-select__menu-item"
         >
           <input
+<<<<<<< HEAD
             class="pf-v6-c-check__input"
             id="pf-random-id-14-Ms"
+=======
+            class="pf-v5-c-check__input"
+            id="generated-id-Ms"
+>>>>>>> main
             type="checkbox"
           />
           <span
@@ -1280,8 +1370,13 @@ exports[`checkbox select renders expanded with filtering successfully 1`] = `
           class="pf-v6-c-check pf-v6-c-select__menu-item"
         >
           <input
+<<<<<<< HEAD
             class="pf-v6-c-check__input"
             id="pf-random-id-14-Other"
+=======
+            class="pf-v5-c-check__input"
+            id="generated-id-Other"
+>>>>>>> main
             type="checkbox"
           />
           <span
@@ -1874,8 +1969,13 @@ exports[`typeahead multi select renders selected successfully 1`] = `
                     class="pf-v6-c-label__content"
                   >
                     <span
+<<<<<<< HEAD
                       class="pf-v6-c-label__text"
                       style="--pf-v6-c-label__text--MaxWidth: 16ch;"
+=======
+                      class="pf-v5-c-chip__text"
+                      id="generated-id"
+>>>>>>> main
                     >
                       Mr
                     </span>
@@ -1886,10 +1986,19 @@ exports[`typeahead multi select renders selected successfully 1`] = `
                     <button
                       aria-disabled="false"
                       aria-label="Remove"
+<<<<<<< HEAD
                       class="pf-v6-c-button pf-m-plain pf-m-no-padding"
                       data-ouia-component-id="OUIA-Generated-Button-plain-1"
                       data-ouia-component-type="PF5/Button"
                       data-ouia-safe="true"
+=======
+                      aria-labelledby="remove_generated-id generated-id"
+                      class="pf-v5-c-button pf-m-plain"
+                      data-ouia-component-id="Remove"
+                      data-ouia-component-type="PF5/Button"
+                      data-ouia-safe="true"
+                      id="remove_generated-id"
+>>>>>>> main
                       type="button"
                     >
                       <svg
@@ -1922,8 +2031,13 @@ exports[`typeahead multi select renders selected successfully 1`] = `
                     class="pf-v6-c-label__content"
                   >
                     <span
+<<<<<<< HEAD
                       class="pf-v6-c-label__text"
                       style="--pf-v6-c-label__text--MaxWidth: 16ch;"
+=======
+                      class="pf-v5-c-chip__text"
+                      id="generated-id"
+>>>>>>> main
                     >
                       Mrs
                     </span>
@@ -1934,10 +2048,19 @@ exports[`typeahead multi select renders selected successfully 1`] = `
                     <button
                       aria-disabled="false"
                       aria-label="Remove"
+<<<<<<< HEAD
                       class="pf-v6-c-button pf-m-plain pf-m-no-padding"
                       data-ouia-component-id="OUIA-Generated-Button-plain-2"
                       data-ouia-component-type="PF5/Button"
                       data-ouia-safe="true"
+=======
+                      aria-labelledby="remove_generated-id generated-id"
+                      class="pf-v5-c-button pf-m-plain"
+                      data-ouia-component-id="Remove"
+                      data-ouia-component-type="PF5/Button"
+                      data-ouia-safe="true"
+                      id="remove_generated-id"
+>>>>>>> main
                       type="button"
                     >
                       <svg

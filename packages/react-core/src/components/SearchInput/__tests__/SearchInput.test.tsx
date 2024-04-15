@@ -11,6 +11,10 @@ import badgeStyles from '@patternfly/react-styles/css/components/Badge/badge';
 import textInputGroupStyles from '@patternfly/react-styles/css/components/TextInputGroup/text-input-group';
 
 jest.mock('../../../helpers/OUIA/ouia');
+<<<<<<< HEAD
+=======
+jest.mock('../../../helpers/GenerateId/GenerateId');
+>>>>>>> main
 
 const props = {
   onChange: jest.fn(),

@@ -4,11 +4,16 @@ exports[`Matches snapshot with children 1`] = `
 <DocumentFragment>
   <li
     aria-expanded="false"
+<<<<<<< HEAD
     class="pf-v6-c-tree-view__list-item"
+=======
+    class="pf-v5-c-tree-view__list-item"
+>>>>>>> main
     role="treeitem"
     tabindex="-1"
   >
     <div
+<<<<<<< HEAD
       class="pf-v6-c-tree-view__content"
     >
       <button
@@ -28,6 +33,27 @@ exports[`Matches snapshot with children 1`] = `
               <svg
                 aria-hidden="true"
                 class="pf-v6-svg"
+=======
+      class="pf-v5-c-tree-view__content"
+    >
+      <button
+        class="pf-v5-c-tree-view__node"
+        type="button"
+      >
+        <span
+          class="pf-v5-c-tree-view__node-container"
+        >
+          <span
+            class="pf-v5-c-tree-view__node-toggle"
+            tabindex="-1"
+          >
+            <span
+              class="pf-v5-c-tree-view__node-toggle-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class="pf-v5-svg"
+>>>>>>> main
                 fill="currentColor"
                 height="1em"
                 role="img"
@@ -41,7 +67,11 @@ exports[`Matches snapshot with children 1`] = `
             </span>
           </span>
           <span
+<<<<<<< HEAD
             class="pf-v6-c-tree-view__node-text"
+=======
+            class="pf-v5-c-tree-view__node-text"
+>>>>>>> main
           >
             Item name
           </span>
@@ -56,11 +86,16 @@ exports[`Matches snapshot without children 1`] = `
 <DocumentFragment>
   <li
     aria-expanded="false"
+<<<<<<< HEAD
     class="pf-v6-c-tree-view__list-item"
+=======
+    class="pf-v5-c-tree-view__list-item"
+>>>>>>> main
     role="treeitem"
     tabindex="-1"
   >
     <div
+<<<<<<< HEAD
       class="pf-v6-c-tree-view__content"
     >
       <button
@@ -72,6 +107,19 @@ exports[`Matches snapshot without children 1`] = `
         >
           <span
             class="pf-v6-c-tree-view__node-text"
+=======
+      class="pf-v5-c-tree-view__content"
+    >
+      <button
+        class="pf-v5-c-tree-view__node"
+        type="button"
+      >
+        <span
+          class="pf-v5-c-tree-view__node-container"
+        >
+          <span
+            class="pf-v5-c-tree-view__node-text"
+>>>>>>> main
           >
             Item name
           </span>

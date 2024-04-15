@@ -27,6 +27,8 @@ export interface LabelProps extends React.HTMLProps<HTMLSpanElement> {
   status?: 'success' | 'warning' | 'danger' | 'info' | 'custom';
   /** Flag indicating the label is compact. */
   isCompact?: boolean;
+  /** Flag indicating the label is disabled. Works only on clickable labels, so either href or onClick props must be passed in. */
+  isDisabled?: boolean;
   /** @beta Flag indicating the label is editable. */
   isEditable?: boolean;
   /** @beta Additional props passed to the editable label text div. Optionally passing onInput and onBlur callbacks will allow finer custom text input control. */
@@ -106,6 +108,7 @@ export const Label: React.FunctionComponent<LabelProps> = ({
   variant = 'filled',
   status,
   isCompact = false,
+  isDisabled = false,
   isEditable = false,
   editableProps,
   textMaxWidth,
@@ -224,6 +227,7 @@ export const Label: React.FunctionComponent<LabelProps> = ({
     }
   };
 
+<<<<<<< HEAD
   const LabelComponent = (isOverflowLabel || isAddLabel ? 'button' : 'span') as any;
 
   let _closeBtnAriaLabel = 'Close label';
@@ -232,21 +236,29 @@ export const Label: React.FunctionComponent<LabelProps> = ({
   } else if (typeof children === 'string') {
     _closeBtnAriaLabel = `Close ${children}`;
   }
+=======
+  const isClickableDisabled = (href || onLabelClick) && isDisabled;
+>>>>>>> main
 
-  const defaultButton = (
+  const defaultCloseButton = (
     <Button
       type="button"
       variant="plain"
       hasNoPadding
       onClick={onClose}
+<<<<<<< HEAD
       aria-label={_closeBtnAriaLabel}
+=======
+      aria-label={closeBtnAriaLabel || `Close ${children}`}
+      {...(isClickableDisabled && { isDisabled: true })}
+>>>>>>> main
       {...closeBtnProps}
     >
       <TimesIcon />
     </Button>
   );
 
-  const button = <span className={css(styles.labelActions)}>{closeBtn || defaultButton}</span>;
+  const closeButton = <span className={css(styles.labelActions)}>{closeBtn || defaultCloseButton}</span>;
   const textRef = React.createRef<any>();
   // ref to apply tooltip when rendered is used
   const componentRef = React.useRef();
@@ -302,6 +314,8 @@ export const Label: React.FunctionComponent<LabelProps> = ({
     className: css(styles.labelContent, isClickable && styles.modifiers.clickable),
     ...(isTooltipVisible && { tabIndex: 0 }),
     ...(href && { href }),
+    // Need to prevent onClick since aria-disabled won't prevent AT from triggering the link
+    ...(href && isDisabled && { onClick: (event: MouseEvent) => event.preventDefault() }),
     ...(isButton && clickableLabelProps),
     ...(isEditable && {
       ref: editableButtonRef,
@@ -310,7 +324,9 @@ export const Label: React.FunctionComponent<LabelProps> = ({
         e.stopPropagation();
       },
       ...editableProps
-    })
+    }),
+    ...(isClickableDisabled && isButton && { disabled: true }),
+    ...(isClickableDisabled && href && { tabindex: -1, 'aria-disabled': true })
   };
 
   let labelComponentChild = (
@@ -336,11 +352,14 @@ export const Label: React.FunctionComponent<LabelProps> = ({
     );
   }
 
+  const LabelComponent = (isOverflowLabel ? 'button' : 'span') as any;
+
   return (
     <LabelComponent
       {...props}
       className={css(
         styles.label,
+        isClickableDisabled && styles.modifiers.disabled,
         colorStyles[color],
         variant === 'filled' && styles.modifiers.filled,
         variant === 'outline' && styles.modifiers.outline,
@@ -356,7 +375,7 @@ export const Label: React.FunctionComponent<LabelProps> = ({
       onClick={isOverflowLabel || isAddLabel ? onLabelClick : undefined}
     >
       {!isEditableActive && labelComponentChild}
-      {!isEditableActive && onClose && button}
+      {!isEditableActive && onClose && closeButton}
       {isEditableActive && (
         <input
           className={css(styles.labelContent)}

@@ -16,6 +16,11 @@ export interface CheckboxProps
   inputClassName?: string;
   /** Flag to indicate whether the checkbox wrapper element is a <label> element for the checkbox input. Will not apply if a component prop (with a value other than a "label") is specified. */
   isLabelWrapped?: boolean;
+<<<<<<< HEAD
+=======
+  /** Flag to show if the checkbox label is shown before the checkbox input. */
+  isLabelBeforeButton?: boolean;
+>>>>>>> main
   /** Flag to show if the checkbox selection is valid or invalid. */
   isValid?: boolean;
   /** Flag to show if the checkbox is disabled. */
@@ -85,7 +90,11 @@ class Checkbox extends React.Component<CheckboxProps, CheckboxState> {
       inputClassName,
       onChange,
       isLabelWrapped,
+<<<<<<< HEAD
       labelPosition = 'end',
+=======
+      isLabelBeforeButton,
+>>>>>>> main
       isValid,
       isDisabled,
       isRequired,
@@ -156,7 +165,11 @@ class Checkbox extends React.Component<CheckboxProps, CheckboxState> {
         className={css(styles.check, !label && styles.modifiers.standalone, className)}
         htmlFor={wrapWithLabel ? props.id : undefined}
       >
+<<<<<<< HEAD
         {labelPosition === 'start' ? (
+=======
+        {isLabelBeforeButton ? (
+>>>>>>> main
           <>
             {labelRendered}
             {inputRendered}

@@ -2,7 +2,11 @@ import React from 'react';
 
 import { render, screen } from '@testing-library/react';
 
+<<<<<<< HEAD
 import { Button, ButtonState, ButtonVariant } from '../Button';
+=======
+import { Button, ButtonVariant } from '../Button';
+>>>>>>> main
 
 Object.values(ButtonVariant).forEach((variant) => {
   if (variant !== 'primary') {

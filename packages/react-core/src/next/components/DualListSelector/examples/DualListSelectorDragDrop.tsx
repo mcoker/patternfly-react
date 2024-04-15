@@ -1,13 +1,25 @@
 import React from 'react';
 import {
+<<<<<<< HEAD
+=======
+  DragDrop,
+  Droppable,
+  Draggable,
+>>>>>>> main
   DualListSelector,
   DualListSelectorPane,
   DualListSelectorList,
   DualListSelectorListItem,
   DualListSelectorControlsWrapper,
+<<<<<<< HEAD
   DualListSelectorControl
 } from '@patternfly/react-core';
 import { DragDrop, Draggable, Droppable, DraggableItemPosition } from '@patternfly/react-core/deprecated';
+=======
+  DualListSelectorControl,
+  DraggableItemPosition
+} from '@patternfly/react-core';
+>>>>>>> main
 import AngleDoubleLeftIcon from '@patternfly/react-icons/dist/esm/icons/angle-double-left-icon';
 import AngleLeftIcon from '@patternfly/react-icons/dist/esm/icons/angle-left-icon';
 import AngleDoubleRightIcon from '@patternfly/react-icons/dist/esm/icons/angle-double-right-icon';

@@ -7,7 +7,6 @@ exports[`Matches snapshot 1`] = `
     data-ouia-component-id="snapshot-test"
     data-ouia-component-type="PF5/Chip"
     data-ouia-safe="true"
-    id="snapshot-test"
   >
     <span
       class="pf-v6-c-label__content"

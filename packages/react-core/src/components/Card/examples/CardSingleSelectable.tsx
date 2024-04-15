@@ -12,7 +12,11 @@ export const SingleSelectableCard: React.FunctionComponent = () => {
   };
 
   return (
+<<<<<<< HEAD
     <Gallery hasGutter>
+=======
+    <React.Fragment>
+>>>>>>> main
       <Card id="single-selectable-card-example-1" isSelectable isSelected={isChecked === id1}>
         <CardHeader
           selectableActions={{

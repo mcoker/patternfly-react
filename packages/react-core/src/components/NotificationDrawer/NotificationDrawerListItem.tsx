@@ -63,7 +63,11 @@ export const NotificationDrawerListItem: React.FunctionComponent<NotificationDra
       onClick={(e) => onClick(e)}
       onKeyDown={onKeyDown}
     >
+<<<<<<< HEAD
       <span className="pf-v6-screen-reader">{readStateSRText}</span>
+=======
+      <span className="pf-v5-screen-reader">{readStateSRText}</span>
+>>>>>>> main
       {children}
     </li>
   );

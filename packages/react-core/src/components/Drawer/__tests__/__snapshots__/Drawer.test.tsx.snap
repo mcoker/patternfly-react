@@ -18,8 +18,13 @@ exports[`Drawer expands from bottom 1`] = `
         </div>
       </div>
       <div
+<<<<<<< HEAD
         class="pf-v6-c-drawer__panel"
         id="pf-drawer-panel-5"
+=======
+        class="pf-v5-c-drawer__panel"
+        id="generated-id"
+>>>>>>> main
       >
         <div
           class="pf-v6-c-drawer__head"
@@ -178,12 +183,18 @@ exports[`Drawer has resizable css and color variants 1`] = `
         </div>
       </div>
       <div
+<<<<<<< HEAD
         class="pf-v6-c-drawer__panel pf-m-resizable pf-m-secondary"
         id="pf-drawer-panel-6"
         style="--pf-v6-c-drawer__panel--md--FlexBasis: 300px; --pf-v6-c-drawer__panel--md--FlexBasis--min: 200px; --pf-v6-c-drawer__panel--md--FlexBasis--max: 400px;"
+=======
+        class="pf-v5-c-drawer__panel pf-m-resizable pf-m-light-200"
+        id="generated-id"
+        style="--pf-v5-c-drawer__panel--md--FlexBasis: 300px; --pf-v5-c-drawer__panel--md--FlexBasis--min: 200px; --pf-v5-c-drawer__panel--md--FlexBasis--max: 400px;"
+>>>>>>> main
       >
         <div
-          aria-controls="pf-drawer-panel-6"
+          aria-controls="generated-id"
           aria-label="Resize"
           aria-orientation="vertical"
           aria-valuemax="100"
@@ -271,7 +282,7 @@ exports[`Drawer isExpanded = false and isInline = false and isStatic = false 1`]
       <div
         class="pf-v6-c-drawer__panel"
         hidden=""
-        id="pf-drawer-panel-1"
+        id="generated-id"
       />
     </div>
   </div>
@@ -298,7 +309,7 @@ exports[`Drawer isExpanded = false and isInline = true and isStatic = false 1`] 
       <div
         class="pf-v6-c-drawer__panel"
         hidden=""
-        id="pf-drawer-panel-3"
+        id="generated-id"
       />
     </div>
   </div>
@@ -323,8 +334,13 @@ exports[`Drawer isExpanded = true and isInline = false and isStatic = false 1`] 
         </div>
       </div>
       <div
+<<<<<<< HEAD
         class="pf-v6-c-drawer__panel"
         id="pf-drawer-panel-0"
+=======
+        class="pf-v5-c-drawer__panel"
+        id="generated-id"
+>>>>>>> main
       >
         <div
           class="pf-v6-c-drawer__head"
@@ -393,8 +409,13 @@ exports[`Drawer isExpanded = true and isInline = false and isStatic = true 1`] =
         </div>
       </div>
       <div
+<<<<<<< HEAD
         class="pf-v6-c-drawer__panel"
         id="pf-drawer-panel-4"
+=======
+        class="pf-v5-c-drawer__panel"
+        id="generated-id"
+>>>>>>> main
       >
         <div
           class="pf-v6-c-drawer__head"
@@ -463,8 +484,13 @@ exports[`Drawer isExpanded = true and isInline = true and isStatic = false 1`] =
         </div>
       </div>
       <div
+<<<<<<< HEAD
         class="pf-v6-c-drawer__panel"
         id="pf-drawer-panel-2"
+=======
+        class="pf-v5-c-drawer__panel"
+        id="generated-id"
+>>>>>>> main
       >
         <div
           class="pf-v6-c-drawer__head"

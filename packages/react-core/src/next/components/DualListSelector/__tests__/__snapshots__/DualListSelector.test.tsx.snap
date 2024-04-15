@@ -3,6 +3,7 @@
 exports[`DualListSelector basic 1`] = `
 <DocumentFragment>
   <div
+<<<<<<< HEAD
     class="pf-v6-c-dual-list-selector__pane pf-m-available"
   >
     <div
@@ -11,6 +12,16 @@ exports[`DualListSelector basic 1`] = `
     >
       <ul
         class="pf-v6-c-dual-list-selector__list"
+=======
+    class="pf-v5-c-dual-list-selector__pane pf-m-available"
+  >
+    <div
+      class="pf-v5-c-dual-list-selector__menu"
+      tabindex="0"
+    >
+      <ul
+        class="pf-v5-c-dual-list-selector__list"
+>>>>>>> main
       />
     </div>
   </div>
@@ -20,6 +31,7 @@ exports[`DualListSelector basic 1`] = `
 exports[`DualListSelector basic with disabled controls 1`] = `
 <DocumentFragment>
   <div
+<<<<<<< HEAD
     class="pf-v6-c-dual-list-selector__pane pf-m-available"
   >
     <div
@@ -28,6 +40,16 @@ exports[`DualListSelector basic with disabled controls 1`] = `
     >
       <ul
         class="pf-v6-c-dual-list-selector__list"
+=======
+    class="pf-v5-c-dual-list-selector__pane pf-m-available"
+  >
+    <div
+      class="pf-v5-c-dual-list-selector__menu"
+      tabindex="0"
+    >
+      <ul
+        class="pf-v5-c-dual-list-selector__list"
+>>>>>>> main
       />
     </div>
   </div>
@@ -37,6 +59,7 @@ exports[`DualListSelector basic with disabled controls 1`] = `
 exports[`DualListSelector with custom status 1`] = `
 <DocumentFragment>
   <div
+<<<<<<< HEAD
     class="pf-v6-c-dual-list-selector__pane pf-m-available"
   >
     <div
@@ -44,17 +67,34 @@ exports[`DualListSelector with custom status 1`] = `
     >
       <div
         class="pf-v6-c-dual-list-selector__status-text"
+=======
+    class="pf-v5-c-dual-list-selector__pane pf-m-available"
+  >
+    <div
+      class="pf-v5-c-dual-list-selector__status"
+    >
+      <div
+        class="pf-v5-c-dual-list-selector__status-text"
+>>>>>>> main
         id="statusTest-status"
       >
         Test status1
       </div>
     </div>
     <div
+<<<<<<< HEAD
       class="pf-v6-c-dual-list-selector__menu"
       tabindex="0"
     >
       <ul
         class="pf-v6-c-dual-list-selector__list"
+=======
+      class="pf-v5-c-dual-list-selector__menu"
+      tabindex="0"
+    >
+      <ul
+        class="pf-v5-c-dual-list-selector__list"
+>>>>>>> main
       />
     </div>
   </div>
@@ -64,6 +104,7 @@ exports[`DualListSelector with custom status 1`] = `
 exports[`DualListSelector with search inputs 1`] = `
 <DocumentFragment>
   <div
+<<<<<<< HEAD
     class="pf-v6-c-dual-list-selector__pane pf-m-available"
   >
     <div
@@ -87,6 +128,31 @@ exports[`DualListSelector with search inputs 1`] = `
                 <svg
                   aria-hidden="true"
                   class="pf-v6-svg"
+=======
+    class="pf-v5-c-dual-list-selector__pane pf-m-available"
+  >
+    <div
+      class="pf-v5-c-dual-list-selector__tools"
+    >
+      <div
+        class="pf-v5-c-dual-list-selector__tools-filter"
+      >
+        <div
+          class="pf-v5-c-text-input-group"
+        >
+          <div
+            class="pf-v5-c-text-input-group__main pf-m-icon"
+          >
+            <span
+              class="pf-v5-c-text-input-group__text"
+            >
+              <span
+                class="pf-v5-c-text-input-group__icon"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="pf-v5-svg"
+>>>>>>> main
                   fill="currentColor"
                   height="1em"
                   role="img"
@@ -100,7 +166,11 @@ exports[`DualListSelector with search inputs 1`] = `
               </span>
               <input
                 aria-label="Search input"
+<<<<<<< HEAD
                 class="pf-v6-c-text-input-group__text-input"
+=======
+                class="pf-v5-c-text-input-group__text-input"
+>>>>>>> main
                 type="text"
                 value=""
               />
@@ -110,11 +180,19 @@ exports[`DualListSelector with search inputs 1`] = `
       </div>
     </div>
     <div
+<<<<<<< HEAD
       class="pf-v6-c-dual-list-selector__menu"
       tabindex="0"
     >
       <ul
         class="pf-v6-c-dual-list-selector__list"
+=======
+      class="pf-v5-c-dual-list-selector__menu"
+      tabindex="0"
+    >
+      <ul
+        class="pf-v5-c-dual-list-selector__list"
+>>>>>>> main
       />
     </div>
   </div>

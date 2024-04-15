@@ -19,7 +19,7 @@ import {
   getResizeObserver,
   DrawerContext
 } from '@patternfly/react-core';
-import { DashboardWrapper } from '@patternfly/react-core/src/demos/DashboardWrapper';
+import { DashboardWrapper } from '@patternfly/react-core/dist/js/demos/DashboardWrapper';
 import mastheadStyles from '@patternfly/react-styles/css/components/Masthead/masthead';
 
 const JumpLinksWrapper = ({ offsetHeight, headings }) => {
@@ -91,7 +91,11 @@ export const JumpLinksWithDrawer = () => {
           <DrawerContentBody>
             <Sidebar>
               <SidebarPanel variant="sticky">
+<<<<<<< HEAD
                 <PageSection>
+=======
+                <PageSection variant={PageSectionVariants.light}>
+>>>>>>> main
                   <JumpLinksWrapper offsetHeight={offsetHeight} headings={headings} />
                 </PageSection>
               </SidebarPanel>

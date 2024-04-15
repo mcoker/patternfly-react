@@ -3,6 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<<<<<<< HEAD
 # [6.0.0-alpha.31](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@6.0.0-alpha.30...@patternfly/react-drag-drop@6.0.0-alpha.31) (2024-04-02)
 
 **Note:** Version bump only for package @patternfly/react-drag-drop
@@ -168,6 +169,80 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+=======
+# [5.3.0-prerelease.25](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.24...@patternfly/react-drag-drop@5.3.0-prerelease.25) (2024-04-09)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.24](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.23...@patternfly/react-drag-drop@5.3.0-prerelease.24) (2024-04-08)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.23](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.22...@patternfly/react-drag-drop@5.3.0-prerelease.23) (2024-04-01)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# 5.3.0-prerelease.22 (2024-03-29)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.21](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.20...@patternfly/react-drag-drop@5.3.0-prerelease.21) (2024-03-28)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.20](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.19...@patternfly/react-drag-drop@5.3.0-prerelease.20) (2024-03-28)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.19](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.18...@patternfly/react-drag-drop@5.3.0-prerelease.19) (2024-03-27)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.18](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.17...@patternfly/react-drag-drop@5.3.0-prerelease.18) (2024-03-27)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.17](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.16...@patternfly/react-drag-drop@5.3.0-prerelease.17) (2024-03-27)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.16](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.15...@patternfly/react-drag-drop@5.3.0-prerelease.16) (2024-03-26)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# 5.3.0-prerelease.15 (2024-03-26)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# 5.3.0-prerelease.14 (2024-03-26)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.13](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.12...@patternfly/react-drag-drop@5.3.0-prerelease.13) (2024-03-25)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.12](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.11...@patternfly/react-drag-drop@5.3.0-prerelease.12) (2024-03-22)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# 5.3.0-prerelease.11 (2024-03-20)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.10](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.9...@patternfly/react-drag-drop@5.3.0-prerelease.10) (2024-03-15)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# [5.3.0-prerelease.9](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.8...@patternfly/react-drag-drop@5.3.0-prerelease.9) (2024-03-12)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+# 5.3.0-prerelease.8 (2024-03-11)
+
+**Note:** Version bump only for package @patternfly/react-drag-drop
+
+>>>>>>> main
 # [5.3.0-prerelease.7](https://github.com/patternfly/patternfly-react/compare/@patternfly/react-drag-drop@5.3.0-prerelease.6...@patternfly/react-drag-drop@5.3.0-prerelease.7) (2024-02-28)
 
 **Note:** Version bump only for package @patternfly/react-drag-drop

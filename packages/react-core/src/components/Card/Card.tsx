@@ -16,6 +16,11 @@ export interface CardProps extends React.HTMLProps<HTMLElement>, OUIAProps {
   isCompact?: boolean;
   /** Flag indicating that the card is selectable. */
   isSelectable?: boolean;
+<<<<<<< HEAD
+=======
+  /** @deprecated Specifies the card is selectable, and applies raised styling on hover and select */
+  isSelectableRaised?: boolean;
+>>>>>>> main
   /** Flag indicating that the card is clickable and contains some action that triggers on click. */
   isClickable?: boolean;
   /** Flag indicating whether a card that is either selectable only or both clickable and selectable is
@@ -75,6 +80,11 @@ export const Card: React.FunctionComponent<CardProps> = ({
   isDisabled = false,
   isSelected = false,
   isClicked = false,
+<<<<<<< HEAD
+=======
+  isDisabledRaised = false,
+  isFlat = false,
+>>>>>>> main
   isExpanded = false,
   isLarge = false,
   isFullHeight = false,
@@ -123,7 +133,13 @@ export const Card: React.FunctionComponent<CardProps> = ({
         isSelectable,
         isSelected,
         isClicked,
+<<<<<<< HEAD
         isDisabled
+=======
+        isDisabled,
+        // TODO: Remove hasSelectableInput when deprecated prop is removed
+        hasSelectableInput
+>>>>>>> main
       }}
     >
       <Component

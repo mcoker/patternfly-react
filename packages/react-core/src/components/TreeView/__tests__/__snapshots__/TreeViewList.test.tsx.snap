@@ -3,7 +3,11 @@
 exports[`Matches snapshot by default 1`] = `
 <DocumentFragment>
   <ul
+<<<<<<< HEAD
     class="pf-v6-c-tree-view__list"
+=======
+    class="pf-v5-c-tree-view__list"
+>>>>>>> main
     role="tree"
   >
     Content
@@ -17,10 +21,17 @@ exports[`Matches snapshot when toolbar is passed 1`] = `
     Toolbar content
   </div>
   <hr
+<<<<<<< HEAD
     class="pf-v6-c-divider"
   />
   <ul
     class="pf-v6-c-tree-view__list"
+=======
+    class="pf-v5-c-divider"
+  />
+  <ul
+    class="pf-v5-c-tree-view__list"
+>>>>>>> main
     role="tree"
   >
     Content

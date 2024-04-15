@@ -9,10 +9,15 @@ exports[`MultipleFileUploadStatus renders custom class names 1`] = `
       class="pf-v6-c-expandable-section pf-m-expanded"
     >
       <button
-        aria-controls="pf-expandable-section-1-content"
+        aria-controls="generated-id-content"
         aria-expanded="true"
+<<<<<<< HEAD
         class="pf-v6-c-expandable-section__toggle"
         id="pf-expandable-section-1-toggle"
+=======
+        class="pf-v5-c-expandable-section__toggle"
+        id="generated-id-toggle"
+>>>>>>> main
         type="button"
       >
         <span
@@ -48,9 +53,15 @@ exports[`MultipleFileUploadStatus renders custom class names 1`] = `
         </span>
       </button>
       <div
+<<<<<<< HEAD
         aria-labelledby="pf-expandable-section-1-toggle"
         class="pf-v6-c-expandable-section__content"
         id="pf-expandable-section-1-content"
+=======
+        aria-labelledby="generated-id-toggle"
+        class="pf-v5-c-expandable-section__content"
+        id="generated-id-content"
+>>>>>>> main
         role="region"
       >
         <ul
@@ -74,10 +85,15 @@ exports[`MultipleFileUploadStatus renders status toggle icon 1`] = `
       class="pf-v6-c-expandable-section pf-m-expanded"
     >
       <button
-        aria-controls="pf-expandable-section-3-content"
+        aria-controls="generated-id-content"
         aria-expanded="true"
+<<<<<<< HEAD
         class="pf-v6-c-expandable-section__toggle"
         id="pf-expandable-section-3-toggle"
+=======
+        class="pf-v5-c-expandable-section__toggle"
+        id="generated-id-toggle"
+>>>>>>> main
         type="button"
       >
         <span
@@ -127,9 +143,15 @@ exports[`MultipleFileUploadStatus renders status toggle icon 1`] = `
         </span>
       </button>
       <div
+<<<<<<< HEAD
         aria-labelledby="pf-expandable-section-3-toggle"
         class="pf-v6-c-expandable-section__content"
         id="pf-expandable-section-3-content"
+=======
+        aria-labelledby="generated-id-toggle"
+        class="pf-v5-c-expandable-section__content"
+        id="generated-id-content"
+>>>>>>> main
         role="region"
       >
         <ul
@@ -153,10 +175,15 @@ exports[`MultipleFileUploadStatus renders status toggle text 1`] = `
       class="pf-v6-c-expandable-section pf-m-expanded"
     >
       <button
-        aria-controls="pf-expandable-section-2-content"
+        aria-controls="generated-id-content"
         aria-expanded="true"
+<<<<<<< HEAD
         class="pf-v6-c-expandable-section__toggle"
         id="pf-expandable-section-2-toggle"
+=======
+        class="pf-v5-c-expandable-section__toggle"
+        id="generated-id-toggle"
+>>>>>>> main
         type="button"
       >
         <span
@@ -194,9 +221,15 @@ exports[`MultipleFileUploadStatus renders status toggle text 1`] = `
         </span>
       </button>
       <div
+<<<<<<< HEAD
         aria-labelledby="pf-expandable-section-2-toggle"
         class="pf-v6-c-expandable-section__content"
         id="pf-expandable-section-2-content"
+=======
+        aria-labelledby="generated-id-toggle"
+        class="pf-v5-c-expandable-section__content"
+        id="generated-id-content"
+>>>>>>> main
         role="region"
       >
         <ul
@@ -220,10 +253,15 @@ exports[`MultipleFileUploadStatus renders with expected class names 1`] = `
       class="pf-v6-c-expandable-section pf-m-expanded"
     >
       <button
-        aria-controls="pf-expandable-section-0-content"
+        aria-controls="generated-id-content"
         aria-expanded="true"
+<<<<<<< HEAD
         class="pf-v6-c-expandable-section__toggle"
         id="pf-expandable-section-0-toggle"
+=======
+        class="pf-v5-c-expandable-section__toggle"
+        id="generated-id-toggle"
+>>>>>>> main
         type="button"
       >
         <span
@@ -259,9 +297,15 @@ exports[`MultipleFileUploadStatus renders with expected class names 1`] = `
         </span>
       </button>
       <div
+<<<<<<< HEAD
         aria-labelledby="pf-expandable-section-0-toggle"
         class="pf-v6-c-expandable-section__content"
         id="pf-expandable-section-0-content"
+=======
+        aria-labelledby="generated-id-toggle"
+        class="pf-v5-c-expandable-section__content"
+        id="generated-id-content"
+>>>>>>> main
         role="region"
       >
         <ul

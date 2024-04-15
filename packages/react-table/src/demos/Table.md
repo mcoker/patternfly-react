@@ -103,7 +103,11 @@ import BellIcon from '@patternfly/react-icons/dist/esm/icons/bell-icon';
 
 ### Column management with draggable
 
+<<<<<<< HEAD
 ```js isFullscreen file="./examples/TableColumnManagementWithDraggable.tsx"
+=======
+```js isDeprecated isFullscreen file="./examples/TableColumnManagementWithDraggable.tsx"
+>>>>>>> main
 
 ```
 
@@ -136,7 +140,11 @@ To demonstrate this, navigate to the last page of data below using the `>>` navi
 
 ### Static bottom pagination on mobile
 
+<<<<<<< HEAD
 ```ts isFullscreen file="./examples/TableStaticBottomPagination.tsx"
+=======
+```js isFullscreen file="./examples/TableStaticBottomPagination.tsx"
+>>>>>>> main
 
 ```
 

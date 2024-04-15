@@ -14,16 +14,28 @@ export const AccordionToggleIconAtStart: React.FunctionComponent = () => {
 
   return (
     <Accordion togglePosition="start">
+<<<<<<< HEAD
       <AccordionItem isExpanded={expanded === 'start-toggle-toggle1'}>
+=======
+      <AccordionItem>
+>>>>>>> main
         <AccordionToggle
           onClick={() => {
             onToggle('start-toggle-toggle1');
           }}
+<<<<<<< HEAD
+=======
+          isExpanded={expanded === 'start-toggle-toggle1'}
+>>>>>>> main
           id="start-toggle-toggle1"
         >
           Item one
         </AccordionToggle>
+<<<<<<< HEAD
         <AccordionContent id="start-toggle-expand1">
+=======
+        <AccordionContent id="start-toggle-expand1" isHidden={expanded !== 'start-toggle-toggle1'}>
+>>>>>>> main
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna aliqua.
@@ -31,16 +43,28 @@ export const AccordionToggleIconAtStart: React.FunctionComponent = () => {
         </AccordionContent>
       </AccordionItem>
 
+<<<<<<< HEAD
       <AccordionItem isExpanded={expanded === 'start-toggle-toggle2'}>
+=======
+      <AccordionItem>
+>>>>>>> main
         <AccordionToggle
           onClick={() => {
             onToggle('start-toggle-toggle2');
           }}
+<<<<<<< HEAD
+=======
+          isExpanded={expanded === 'start-toggle-toggle2'}
+>>>>>>> main
           id="start-toggle-toggle2"
         >
           Item two
         </AccordionToggle>
+<<<<<<< HEAD
         <AccordionContent id="start-toggle-expand2">
+=======
+        <AccordionContent id="start-toggle-expand2" isHidden={expanded !== 'start-toggle-toggle2'}>
+>>>>>>> main
           <p>
             Vivamus et tortor sed arcu congue vehicula eget et diam. Praesent nec dictum lorem. Aliquam id diam
             ultrices, faucibus erat id, maximus nunc.
@@ -48,30 +72,54 @@ export const AccordionToggleIconAtStart: React.FunctionComponent = () => {
         </AccordionContent>
       </AccordionItem>
 
+<<<<<<< HEAD
       <AccordionItem isExpanded={expanded === 'start-toggle-toggle3'}>
+=======
+      <AccordionItem>
+>>>>>>> main
         <AccordionToggle
           onClick={() => {
             onToggle('start-toggle-toggle3');
           }}
+<<<<<<< HEAD
+=======
+          isExpanded={expanded === 'start-toggle-toggle3'}
+>>>>>>> main
           id="start-toggle-toggle3"
         >
           Item three
         </AccordionToggle>
+<<<<<<< HEAD
         <AccordionContent id="start-toggle-expand3">
+=======
+        <AccordionContent id="start-toggle-expand3" isHidden={expanded !== 'start-toggle-toggle3'}>
+>>>>>>> main
           <p>Morbi vitae urna quis nunc convallis hendrerit. Aliquam congue orci quis ultricies tempus.</p>
         </AccordionContent>
       </AccordionItem>
 
+<<<<<<< HEAD
       <AccordionItem isExpanded={expanded === 'start-toggle-toggle4'}>
+=======
+      <AccordionItem>
+>>>>>>> main
         <AccordionToggle
           onClick={() => {
             onToggle('start-toggle-toggle4');
           }}
+<<<<<<< HEAD
+=======
+          isExpanded={expanded === 'start-toggle-toggle4'}
+>>>>>>> main
           id="start-toggle-toggle4"
         >
           Item four
         </AccordionToggle>
+<<<<<<< HEAD
         <AccordionContent id="start-toggle-expand4">
+=======
+        <AccordionContent id="start-toggle-expand4" isHidden={expanded !== 'start-toggle-toggle4'}>
+>>>>>>> main
           <p>
             Donec vel posuere orci. Phasellus quis tortor a ex hendrerit efficitur. Aliquam lacinia ligula pharetra,
             sagittis ex ut, pellentesque diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
@@ -84,16 +132,28 @@ export const AccordionToggleIconAtStart: React.FunctionComponent = () => {
         </AccordionContent>
       </AccordionItem>
 
+<<<<<<< HEAD
       <AccordionItem isExpanded={expanded === 'start-toggle-toggle5'}>
+=======
+      <AccordionItem>
+>>>>>>> main
         <AccordionToggle
           onClick={() => {
             onToggle('start-toggle-toggle5');
           }}
+<<<<<<< HEAD
+=======
+          isExpanded={expanded === 'start-toggle-toggle5'}
+>>>>>>> main
           id="start-toggle-toggle5"
         >
           Item five
         </AccordionToggle>
+<<<<<<< HEAD
         <AccordionContent id="start-toggle-expand5">
+=======
+        <AccordionContent id="start-toggle-expand5" isHidden={expanded !== 'start-toggle-toggle5'}>
+>>>>>>> main
           <p>Vivamus finibus dictum ex id ultrices. Mauris dictum neque a iaculis blandit.</p>
         </AccordionContent>
       </AccordionItem>

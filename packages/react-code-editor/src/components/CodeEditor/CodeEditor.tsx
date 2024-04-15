@@ -16,7 +16,11 @@ import {
   TooltipPosition
 } from '@patternfly/react-core';
 import Editor, { EditorProps, Monaco } from '@monaco-editor/react';
+<<<<<<< HEAD
 import { editor } from 'monaco-editor/esm/vs/editor/editor.api';
+=======
+import type { editor } from 'monaco-editor';
+>>>>>>> main
 import CopyIcon from '@patternfly/react-icons/dist/esm/icons/copy-icon';
 import UploadIcon from '@patternfly/react-icons/dist/esm/icons/upload-icon';
 import DownloadIcon from '@patternfly/react-icons/dist/esm/icons/download-icon';

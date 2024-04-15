@@ -103,21 +103,39 @@ exports[`Toolbar should render with custom chip content 1`] = `
           class="pf-v6-c-toolbar__item pf-m-chip-group"
         >
           <div
+<<<<<<< HEAD
             class="pf-v6-c-label-group pf-m-category"
+=======
+            aria-labelledby="generated-id"
+            class="pf-v5-c-chip-group pf-m-category"
+            data-ouia-component-type="PF5/ChipGroup"
+            data-ouia-safe="true"
+            role="group"
+>>>>>>> main
           >
             <div
               class="pf-v6-c-label-group__main"
             >
               <span
+<<<<<<< HEAD
                 aria-hidden="true"
                 class="pf-v6-c-label-group__label"
                 id="pf-random-id-0"
+=======
+                class="pf-v5-c-chip-group__label"
+                id="generated-id"
+>>>>>>> main
               >
                 Status
               </span>
               <ul
+<<<<<<< HEAD
                 aria-labelledby="pf-random-id-0"
                 class="pf-v6-c-label-group__list"
+=======
+                aria-labelledby="generated-id"
+                class="pf-v5-c-chip-group__list"
+>>>>>>> main
                 role="list"
               >
                 <li
@@ -130,7 +148,12 @@ exports[`Toolbar should render with custom chip content 1`] = `
                       class="pf-v6-c-label__content"
                     >
                       <span
+<<<<<<< HEAD
                         class="pf-v6-c-label__text"
+=======
+                        class="pf-v5-c-chip__text"
+                        id="generated-id"
+>>>>>>> main
                       >
                         New
                       </span>
@@ -140,11 +163,21 @@ exports[`Toolbar should render with custom chip content 1`] = `
                     >
                       <button
                         aria-disabled="false"
+<<<<<<< HEAD
                         aria-label="Close New"
                         class="pf-v6-c-button pf-m-plain pf-m-no-padding"
                         data-ouia-component-id="OUIA-Generated-Button-plain-2"
                         data-ouia-component-type="PF5/Button"
                         data-ouia-safe="true"
+=======
+                        aria-label="close"
+                        aria-labelledby="remove_generated-id generated-id"
+                        class="pf-v5-c-button pf-m-plain"
+                        data-ouia-component-id="close"
+                        data-ouia-component-type="PF5/Button"
+                        data-ouia-safe="true"
+                        id="remove_generated-id"
+>>>>>>> main
                         type="button"
                       >
                         <svg
@@ -174,7 +207,12 @@ exports[`Toolbar should render with custom chip content 1`] = `
                       class="pf-v6-c-label__content"
                     >
                       <span
+<<<<<<< HEAD
                         class="pf-v6-c-label__text"
+=======
+                        class="pf-v5-c-chip__text"
+                        id="generated-id"
+>>>>>>> main
                       >
                         Pending
                       </span>
@@ -184,11 +222,21 @@ exports[`Toolbar should render with custom chip content 1`] = `
                     >
                       <button
                         aria-disabled="false"
+<<<<<<< HEAD
                         aria-label="Close Pending"
                         class="pf-v6-c-button pf-m-plain pf-m-no-padding"
                         data-ouia-component-id="OUIA-Generated-Button-plain-3"
                         data-ouia-component-type="PF5/Button"
                         data-ouia-safe="true"
+=======
+                        aria-label="close"
+                        aria-labelledby="remove_generated-id generated-id"
+                        class="pf-v5-c-button pf-m-plain"
+                        data-ouia-component-id="close"
+                        data-ouia-component-type="PF5/Button"
+                        data-ouia-safe="true"
+                        id="remove_generated-id"
+>>>>>>> main
                         type="button"
                       >
                         <svg
@@ -215,13 +263,20 @@ exports[`Toolbar should render with custom chip content 1`] = `
             >
               <button
                 aria-disabled="false"
+<<<<<<< HEAD
                 aria-label="Close label group"
                 aria-labelledby="remove_group_pf-random-id-0 pf-random-id-0"
                 class="pf-v6-c-button pf-m-plain pf-m-no-padding"
                 data-ouia-component-id="OUIA-Generated-Button-plain-4"
+=======
+                aria-label="Close chip group"
+                aria-labelledby="remove_group_generated-id generated-id"
+                class="pf-v5-c-button pf-m-plain"
+                data-ouia-component-id="Close chip group"
+>>>>>>> main
                 data-ouia-component-type="PF5/Button"
                 data-ouia-safe="true"
-                id="remove_group_pf-random-id-0"
+                id="remove_group_generated-id"
                 type="button"
               >
                 <svg

@@ -1,7 +1,11 @@
 import * as React from 'react';
 import { render, screen } from '@testing-library/react';
+<<<<<<< HEAD
 import { kebabCase } from 'case-anything';
 import { Icon, IconSize } from '../Icon';
+=======
+import { Icon } from '../Icon';
+>>>>>>> main
 import CheckIcon from '@patternfly/react-icons/dist/esm/icons/check-icon';
 import styles from '@patternfly/react-styles/css/components/Icon/icon';
 
