@@ -109,15 +109,11 @@ class Switch extends React.Component<SwitchProps & OUIAProps, { ouiaStateId: str
                 </span>
               )}
             </span>
-            <span
-              className={css(styles.switchLabel, styles.modifiers.on)}
-              id={isAriaLabelledBy ? `${this.id}-on` : null}
-              aria-hidden="true"
-            >
+            <span className={css(styles.switchLabel)} id={isAriaLabelledBy ? `${this.id}-on` : null} aria-hidden="true">
               {label}
             </span>
             <span
-              className={css(styles.switchLabel, styles.modifiers.off)}
+              className={css(styles.switchLabel)}
               id={isAriaLabelledBy ? `${this.id}-off` : null}
               aria-hidden="true"
             >
